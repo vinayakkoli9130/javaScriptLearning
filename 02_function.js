@@ -48,3 +48,10 @@ function rajuBhaiya(paisa){
     console.log(val1 + val2);
  }
  add(10, 20);
+
+ function sub(val1,val2) {
+console.log("before substraction", val1, val2);
+  console.log("After substraction",val1-val2);
+ }
+ sub(20, 12);
+ sub(35,15);
