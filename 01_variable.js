@@ -49,6 +49,18 @@ console.log(typeof microsoftOwner);
 microsoftOwner = true;
 console.log(typeof microsoftOwner);
 
+var god="Jay shree Ram"
+console.log(god);
+
+console.log(typeof god);
+
+var msd=07;
+console.log("07");
+console.log("07",typeof msd);
+ 
+var youAreUgle=true;
+ console.log(typeof true );
+
 
 
 
