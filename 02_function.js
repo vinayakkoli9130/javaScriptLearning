@@ -5,6 +5,11 @@ function display( ) {
 }
 
 display(); // Function call or function invocation
+  function student() {     
+  console.log("Vinayak Somning Koli");
+  
+}
+student();
 
 // Write a function show which should log you college name
 
@@ -13,7 +18,13 @@ function showDetails(myName){
 }
 showDetails("Mohit Sharma");
 
+function myName(val1,val2) {
+  console.log(val1,val2);
+  
+}
+myName("Vinayak", "Koli");
 
+console.log("function with argument without return type");
 
 function swapValues(value1, value2){
     console.log("Before Swap", value1, value2);
@@ -26,6 +37,20 @@ swapValues(100, 200);
 swapValues(2, 4);
 swapValues("Kishor", "Hitesh");
 swapValues("You", "Me");
+
+function concat(val1,val2,val3,val4,val5) {
+  console.log("Before Swap",val1,val2,val3,val4,val5);
+  var temp=val1;
+  val1=val2;
+  val2=val3;
+  val3=val4;
+  val4=val5;
+  val5=temp;
+  console.log("After Swap", val1,val2,val3,val4,val5);
+  
+}
+concat(2,3,4,5,6,7);
+concat("a","b","c","d","e")
 
 function hello(myName){
     console.log(myName);
@@ -42,6 +67,13 @@ function rajuBhaiya(paisa){
 }
  var bagOfVegetables= rajuBhaiya(100);
  console.log(bagOfVegetables);
+
+ function worker(workTime) {
+console.log(workTime);
+  return 5;
+ }
+ var returns=worker(8.8)
+ console.log("How Many they can't do it work",returns);
  
 
  function add(val1, val2){
