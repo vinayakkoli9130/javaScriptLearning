@@ -23,3 +23,10 @@ console.log( typeof square);
 square(5);
 square(100);
 square(34);
+
+var cube=function(val){
+console.log("Cube Of Number",val,"=",val * val * val);
+typeof cube;
+}
+cube(3);
+cube(5);
