@@ -3,7 +3,7 @@ console.log(bankName);
 console.log(typeof bankName);
 console.log("--------------------------------------------------------------------------------------------");
 
-var marks='Marks 90%'; 
+var marks= "90%";
 console.log( marks);
 console.log(typeof marks);
 console.log("--------------------------------------------------------------------------------------------")
