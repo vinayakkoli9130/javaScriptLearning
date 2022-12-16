@@ -36,5 +36,17 @@ console.log(`Result is -10 ${sscResult(-10)}`); // Invalid value
 console.log(`Result is null ${sscResult(null)}`); // Invalid value
 console.log(`Result is undefined ${sscResult(undefined)}`); // Invalid value
 
-
-
+console.log(`=======================================================================`)
+var marriage=function (val) {
+    var ageLimit= (val < 0 || val > 100 ) 
+    ? "In Valid Data"
+     :(val>=21 && val<=25) ? " Marriage Age":" not Marriage Age" ;
+    console.log(`your age is ${ageLimit}`);
+    
+}
+marriage(18);
+marriage(21);
+marriage(20.9);
+marriage(25);
+marriage(26);
+marriage(102)
