@@ -1,0 +1,15 @@
+var string = "      I Am Angular Developer     ";
+console.log(`String-:${string}`);
+console.log(`String Length-:${string.length}`);
+console.log(`Remove Extra Spaces-:${string.trim()}`);
+var word=string.trim();
+var count=string.length - word.length;
+console.log(`Total Number Of Remove Spaces-:${count}`);
+console.log(`After Remove White Spaces String Length-:${word.length}`);
+console.log(` 2 Number Index Possition Of which Charcter -:${word.charAt(2)}`);
+console.log(` 8 Number Index Possition of which Charcter -:${word.charAt(8)}`);
+var picesOfWords=word.split(" ");
+console.log(`Total Number Of Words In String-:${picesOfWords.length}`);
+console.log(`Which Word Is Which Possion Of Number-:${word.indexOf("Am")}`);
+console.log(`Which Word Is Which Possion Of Number-:${word.indexOf("Developer")}`);
+console.log(``);
