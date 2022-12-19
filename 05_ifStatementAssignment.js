@@ -1,14 +1,14 @@
 var vote = function (val) {
     console.log(``);
     if (val>=18 && (val<=120)) {
-        console.log(`Ege Of Candidate-:${val}---->You Are Eligible For Voting`);
+        console.log(`Age Of Candidate-:${val}---->You Are Eligible For Voting`);
     }
 
      if (val<18 && val>=1) {
-         console.log(`Ege Of Candidate-:${val}---->You Are Not Eligible For Voting`);
+         console.log(`Age Of Candidate-:${val}---->You Are Not Eligible For Voting`);
      }
      if (val<=0 || val>120) {
-         console.log(`Ege Of Candidate-:${val}---->This Is Invalid Data`);
+         console.log(`Age Of Candidate-:${val}---->This Is Invalid Data`);
      }
 }
 vote(45);
