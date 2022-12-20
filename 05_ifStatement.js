@@ -23,10 +23,11 @@ if (num3>num1 && num3>num2) {
 
 function evenOrOdd(value){
     if (value%2==0) {
-        return "EVEN";
+        return evenOrOdd;
     }
     if (value%2!=0) {
-        return "ODD";
+        return evenOrOdd;
     }
 }
 evenOrOdd(45);
+

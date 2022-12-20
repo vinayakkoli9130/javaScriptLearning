@@ -8,7 +8,7 @@ console.log( marks);
 console.log(typeof marks);
 console.log("--------------------------------------------------------------------------------------------")
  var isWorking=true;
- console.log("true" );
+ console.log("true");
 
 console.log(typeof isWorking );
 console.log("--------------------------------------------------------------------------------------------")

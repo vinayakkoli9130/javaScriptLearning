@@ -20,24 +20,32 @@ voting(0)
 
 console.log(`------------------------------------------------------------------------`);
 
-
 function gradeCalculation(marks) {
-  if (marks >= 90 && marks <= 100) {
-    console.log(`   Fantastic Marks: ${marks} Your Grade Is A+`);
+  if (marks>=90 && marks<=100) {
+      console.log(`Funtastic Marks-:${marks} Your Grade is A+` );
   }
-  if (marks >= 75 && marks < 90) {
-    console.log(`   Excellent Mrks: ${marks}  Your Grade Is A`);
-  }
-  if (marks >= 50 && marks < 75) {
-    console.log(`   Good Marks: ${marks}  Your Grade Is B`);
-  }
-  if (marks >= 35 && marks < 50) {
-    console.log(`   Marks is ${marks} : Your Grade Is C Need Improvement`);
-  }
-  if (marks <= 0 && marks < 100) {
-    console.log(`   Marks is ${marks} : Please Provide The Valid Marks`);
-  }
+ else if (marks>=75 && marks<90 ) {
+  console.log(`Excellent Marks-:${marks} Your Grade is A`);
+ }
+else if (marks>=50 && marks < 75) {
+  console.log(`Good Marks-:${marks} Your Grade is B` );
 }
+else if (marks>=35 && marks<50) {
+  console.log(` Marks Is -:${marks} Your Grade is C,Need To Improve ` );
+}
+else if (marks<=34 && marks > 1) {
+  console.log(` Marks Is -:${marks} Sorry You Are Fail.Please Try Again ` );
+}
+else if (marks<=0 || marks>100) {
+  console.log(` Marks Is -:${marks} Please Provide Valid Marks ` );
+  if (marks<34 && marks > 1) {
+      console.log(` Marks Is -:${marks} Sorry You Are Fail.Please Try Again ` );
+  }
+  
+}
+
+}
+
 gradeCalculation(98);
 gradeCalculation(80);
 gradeCalculation(90);
