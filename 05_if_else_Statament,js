@@ -26,7 +26,9 @@ votingEligibility(89);
 
 
 
-votingEligibility(1500);console.log(`Boomm booom`);
+votingEligibility(1500);
+
+console.log(`Boomm booom`);
 var isRoadBlocked = false;
 if(isRoadBlocked){
     console.log(`Traveling thru express way`);
