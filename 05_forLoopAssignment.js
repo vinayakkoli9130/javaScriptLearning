@@ -9,12 +9,9 @@ for (let index = 50; index >=40; index--) {
    
     console.log(index);
    }
-   for (let index = 1; index <=15; index=index % 2==0 ) {
-   
-     console.log(index);
-     }
-console.log(`---------------------------------------------------------------------`)
-    for (let table = 5; table <=50; table=table + 5 ) {
+  
+    console.log(`---------------------------------------------------------------------`)
+for (let table = 5; table <=50; table=table + 5 ) {
    
    console.log(table);
    }
@@ -29,11 +26,19 @@ console.log(`-------------------------------------------------------------------
    
         console.log(table);
         }
-
-        for (var i=0; i<=15; i++) {
-            
+        console.log(`---------------------------------------------------------------------`);
+        for (var i = 0; i <=15; i++) {
             if (i%2==0) {
-                console.log(i);
+                console.log(i); 
+            }
                 
             }
-        }
+            console.log(`---------------------------------------------------------------------`);
+            for (var i = 0; i <=15; i++) {
+                if (i%2==1) {
+                    console.log(i); 
+                }
+                    
+                }
+                console.log(`---------------------------------------------------------------------`);
+        
