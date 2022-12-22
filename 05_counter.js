@@ -51,4 +51,27 @@ for (let index = 0; index < sentence.length; index++) {
         counter = counter +1;
     }   
 }
-console.log(`Total vowels in string is : ${counter}`);
+console.log(`Total vowels in string is :${sentence} ${counter}`);
+
+
+var sentence = "Life Is Not Race,It's journy You Only Enjoy Journy";
+// initi   cond  update 
+var reverseString = "";
+ var lastCharPosition = sentence.length-1;
+for (let index = lastCharPosition; index >= 0; index-- ){
+     var char = sentence.charAt(index);
+      reverseString = reverseString.concat(char);
+     // console.log(char);
+    
+}
+console.log(reverseString)
+
+var words="Life Is Not Complete"
+var reverse="";
+var wordString=words.length-1;
+
+for (let index = 0; index < wordString.length; index--) {
+   var char=words.charAt(index);
+   reverse=reverse.concat(char)
+}
+console.log(reverse);
