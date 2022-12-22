@@ -10,6 +10,10 @@ do {
     console.log(num);
     num--;
 } while (num>=40);
+
+
+
+
 console.log(`Printing Number Using Do While Loop`);
 var str=5;
 do {
@@ -28,3 +32,5 @@ do {
     console.log(reverse);
     reverse=reverse-10;
 } while (reverse>=10);
+
+console.log(`Printing Odd Number 0 To 15 Using Do While Loop`);
