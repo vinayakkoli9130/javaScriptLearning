@@ -14,19 +14,24 @@ fNumber(7);
 fNumber(8);
 fNumber(12);
 console.log(`------------------------------------------------------------------`);
-// function sumCube(val){
-//     var total=0;
-//     for (let i = 1; i<val ; i++) {
-//        var cube= val*val*val;
-//        total += cube;
-//         console.log(total);
-//     }
-// }
-// sumCube(1);
-// sumCube(2); 
-// sumCube(3);
-// sumCube(4);
-// sumCube(5)
+
+function sumCube(val){
+  var counter=0;
+for (let index = 0; index <val.length; index++) {
+  var add= val*val*val;
+  counter=counter+add; 
+  
+  console.log(counter);
+  
+}
+
+
+}
+sumCube(1);
+sumCube(2); 
+sumCube(3);
+sumCube(4);
+sumCube(5)
 
 // function cubeSum(val1,val2,val3,val4,val5) {
 //    var string1=val1*val1*val1;

@@ -87,3 +87,15 @@ console.log("before substraction", val1, val2);
  }
  sub(20, 12);
  sub(35,15);
+
+
+ function swap(val1,val2,val3,val4) {
+  console.log("Before Swaping String-:",val1,val2,val3,val4);
+   var temp=val1
+  val1=val2
+  val2=val3
+  val3=val4
+  val4=temp;
+  console.log("After Swaping String-:",val1,val2,val3,val4);
+ }
+ swap(`Ram`,`Sham`,`Shita`,`Gita`)

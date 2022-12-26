@@ -30,3 +30,12 @@ typeof cube;
 }
 cube(3);
 cube(5);
+
+
+
+function mahesh(val1,val2) {
+ var fullName =val1+val2;
+ return fullName
+}
+var mahi=mahesh("Vinayak","Koli")
+console.log(`${mahi}`);
