@@ -27,8 +27,9 @@ for (let table = 5; table <=50; table=table + 5 ) {
         console.log(table);
         }
         console.log(`---------------------------------------------------------------------`);
-        for (var i = 0; i <=15; i++) {
-            if (i%2==0) {
+        for (var i = 0; i <=15; i+2) {
+
+             if (i%2==0) {
                 console.log(i); 
             }
                 

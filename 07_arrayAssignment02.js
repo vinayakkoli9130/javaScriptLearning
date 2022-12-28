@@ -62,6 +62,7 @@ console.log(`10) 115 Number Is Available In Given Array--->${arrayNumbers.includ
 console.log(`=========================================================================`);
 console.log(`11) 23 Number Is Available In Given Array--->${arrayNumbers.includes(23)}`);
 console.log(`=========================================================================`);
+console.log(arrayNumbers);
 arrayNumbers.splice(3,0,55,66)
 console.log("12) Inserting Numbers Before Index 3--->",arrayNumbers);
 console.log(`=========================================================================`);

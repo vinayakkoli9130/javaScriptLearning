@@ -33,7 +33,7 @@ add(5, 5);
 
 console.log(`Differnce Between var let const`);
 var myName="Vinayak"
-var myName="Mahesh" //Redeclaration is allowed in var keyword and you aslo change value of var;
+var myName="Mahesh" //Redeclaration is allowed in var keyword and you also change value of var;
 console.log(myName);
 
 let name="Mahesh";

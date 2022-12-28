@@ -25,9 +25,10 @@ function evenOrOdd(value){
     if (value%2==0) {
         return evenOrOdd;
     }
-    if (value%2!=0) {
+    if (value%2!=1) {
         return evenOrOdd;
     }
+   
 }
-evenOrOdd(45);
-
+var res=evenOrOdd(45);
+console.log(res);

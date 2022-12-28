@@ -132,7 +132,7 @@ arrayOfNum.splice(3, 1, 22);
 console.log(arrayOfNum);
 console.log("====== Replacing element in the array when splice(2, 3, 99, 77 ) =======");
 var arrayOfNum = [4, 5, 6, 8, 9, 33, 66];
-arrayOfNum.splice(2, 3, 99, 77 );
+arrayOfNum.splice(2, 3, 77, 99 );
 console.log(arrayOfNum);
 
 console.log(`======== for of loop ==========`);
