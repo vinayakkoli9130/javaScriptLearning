@@ -42,8 +42,8 @@ do {
     console.log(reverse);
     reverse=reverse-10;
 } while (reverse>=10);
-
-i=0;
+console.log(`+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++`);
+i=1;
 while (i<=15) { 
     console.log(i);
     i=i+2

@@ -1,4 +1,4 @@
-for (let index = 0; index <= 200; index+20) {
+for (let index = 1; index <= 200; index+20) {
    console.log(index);
     
 }

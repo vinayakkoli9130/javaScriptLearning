@@ -41,7 +41,7 @@ let name="Mahesh";
 console.log(name);
 
 const frdName="Arman";
- //frdName="Arjun";//Redeclaration And Value Change Not Allowed In const.
+ //frdName="Arjun";//Redeclaration And Value Change In const Not Allowed .
 console.log(frdName);
 
 function fName(first,last) {

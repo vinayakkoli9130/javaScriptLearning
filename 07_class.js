@@ -1,0 +1,26 @@
+//class is blueprint of object
+class Employee{
+    constructor(name, id, age, city){//constructor is used initilise object/data member
+        this.name = name;//this keyword or variable is used to point current object.
+        this.id = id;
+        this.age = age;
+        this.city = city;
+    } 
+}
+let empSmith = new Employee("Smith", 33, 26, "Delhi");//new keyword are used create new object
+let empJay = new Employee("Jay", 3000, 21, "Pune");
+let empBill = new Employee("Billgates", 5000, 58, "USA");
+console.log(empSmith);
+console.log(empJay);
+console.log(empBill);
+for (const key in empBill) {//trevese keys
+    if (Object.hasOwnProperty.call(empBill, key)) {
+        const element = empBill[key];
+console.log(element);        
+    }
+}
+// let isInstance = empSmith instanceof Employee;//instanceof check given object is available or not in Employee class.
+// console.log(isInstance);
+// Object is an instance of class
+
+

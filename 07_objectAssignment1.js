@@ -11,10 +11,9 @@ const professor = {
       certificates1: "Hacker Rank Participation",
       certificates2: "Certificate In IFE Cource",
       certificates3: "Certificate In Adv Programing",
-      add: function() {
-        
-          return this.Msc+this.PHD+this.College;
-     }
+      //  add:function () {
+      //    this.Msc+this.PHD+this.College
+      //  }
     },
   },
  }
@@ -34,12 +33,6 @@ console.log(
   `=============================================================================`
 );
 
-
-//  console.log(`Accessing an Nested object function`);
-//  const totalMarks = professor.degrees.certificates.add();
-//  console.log(` ${totalMarks}`);
-
-console.log(4);
    console.log(`Add and concat degrees of professor`);
    console.log(professor.degrees);
    console.log(`The total degrees of professor are Engineering,PHD,College`);

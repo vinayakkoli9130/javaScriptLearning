@@ -79,7 +79,7 @@ console.log(
   `++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++`
 );
 
-var month = 5;
+var month = 14;
 switch (month) {
   case 1:
     console.log(`Jan`);
@@ -120,5 +120,28 @@ switch (month) {
 
   default:
     console.log(`In valid Data`);
+    break;
+}
+console.log(`=========================================================================`);
+var life=3;
+switch (life) {
+  case 1:
+    console.log("Life Is All About Today Step");
+    break;
+    case 2:
+      console.log("Life Is Journy Not Race");
+      break;
+      case 3:
+        console.log("Life Is Is Not Deficult You Think Negative ");
+        break;
+        case 4:
+          console.log("Life Is Not Short You Not Survive");
+          break;
+          case 5:
+            console.log("Life Always Take Second Chance");
+            break;
+                    
+  default:
+    console.log('Go And Sleep');
     break;
 }

@@ -12,12 +12,24 @@ for (let index = 0; index < sentence.length; index++) {
 console.log(`Total vowels in string is -: ${sentence} = ${counter}`);
 console.log(`----------------------------------------------------------------------------------------------`);
 console.log(`2)`);
-function sumeOfCube() {
-  var sum=0;
-  for (let index = 1; index <=5; index++) {
-  sum=sum + cube;
-    
-  }
- console.log(`The Sum Of Cube Of Numbers From 1 To 5 Is-:${sum}`); 
+function sumOfCubes(num) {
+    var sumNum=0;
+    for (let index = 0; index <num; index++) {
+     sumNum+=index**3;
+    }
+    return sumNum;
 }
-sumeOfCube();
+console.log(`${sumOfCubes(5)}`);
+
+function cubeSome(val) {
+    let add=0 ;
+ let multi=val*val*val 
+ console.log(multi); 
+//    add=add.concat(multi);
+//  console.log(add); 
+}
+cubeSome(1)
+cubeSome(2)
+cubeSome(3)
+cubeSome(4)
+cubeSome(5)
