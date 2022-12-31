@@ -29,9 +29,9 @@ console.log("Concatenation using + operator:", result);
 var result = firstName.concat(" Ravesh " ,lastName);
 console.log("Concatenation using concat(): ", result);
 
-var greet = "Good Morning";
-var indexOf = greet.indexOf("M");
-console.log("Index of character M: ", indexOf);
+// var greet = "Good Morning";
+// var indexof = greet.indexOf("M");
+// console.log("Index of character M: ", indexo);
 
 
 

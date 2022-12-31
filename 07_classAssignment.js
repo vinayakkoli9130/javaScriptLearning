@@ -1,4 +1,4 @@
-console.log(`1`);
+console.log(`1)`);
 class Vehicle{
 constructor(vehicleName,engine,color,price,average,){
 this.vehicleName=vehicleName;
@@ -39,20 +39,43 @@ let college1=new College("K.B.P.M","Pandharpur","Bcs,BCA,Bsc,M.co.,M.A,Msc","Ray
 let college2=new College("Shri Sant Damaji Mahavidyalaya","Mangalwedha","B.A,B.Con,Bsc,M.A,11th,12th","Shri. Ratanchand Shaha")
 let college3=new College(" Fabtech College of Engineering","Sangola","Engineering,B.Pharmacy,D.Pharmacy","Hon. shri. B.A.Rupnar")
 let college4=new College("Shri Vithal Education & Research Institute","Pandharpur","Engineering,B.Pharmacy,D.Pharmacy","Raghunath Shevgaonka")
-for (const key in college) {
-    if (Object.hasOwnProperty.call(college, key)) {
-        const element = college[key];
-        console.log(element);
-    }
-}
 
-// college.details();
-// college1.details();
-// college2.details();
-// college3.details();
-// college4.details();
+
+
+
+
+
+
+
+college.details();
+college1.details();
+college2.details();
+college3.details();
+college4.details();
  console.log(`===============================================================================================`);
- console.log(`3`);
+ console.log(`3)`);
 
-   
+ function traverseObject(college){
+     for (const key in college) {
+         if (Object.hasOwnProperty.call(college, key)) {
+             const element = college[key];
+             console.log(`${key} : ${element}`);
+         }
+     }
+ }
+ traverseObject(college);
+  console.log(``);
+  traverseObject(college1);
+ console.log(``);
+ traverseObject(college2);
+  console.log(``);
+  traverseObject(college3);
+  console.log(``);
+  traverseObject(college4);
  
+
+
+
+
+
+

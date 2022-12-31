@@ -16,7 +16,7 @@ console.log(empBill);
 for (const key in empBill) {//trevese keys
     if (Object.hasOwnProperty.call(empBill, key)) {
         const element = empBill[key];
-console.log(element);        
+console.log(key,element);        
     }
 }
 // let isInstance = empSmith instanceof Employee;//instanceof check given object is available or not in Employee class.

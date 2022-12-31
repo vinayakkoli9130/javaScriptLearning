@@ -136,6 +136,7 @@ console.log(`Accessing an nested certification proprty`);
         add : function showDetails(){
             console.log(`Please visit again always welcome`);
         }
+        
     }
     console.log(`---------- SBI Bank ----------`);
     console.log(sbiBank);
