@@ -4,10 +4,10 @@ console.log(typeof num1);
 console.log(typeof num2);
 console.log(typeof '100');
 
-var result = num1==num2 ? "Equal" : "Not Equal";
+var result = num1==num2 ? "Equal" : "Not Equal";//javaScript is automatical covert data type
 console.log(`num1==num2==> ${result}`);
 
-var res = num1===num2 ? "Equal" : "Not Equal";
+var res = num1===num2 ? "Equal" : "Not Equal";//Strictly follow the rule Can't change datatype 
 console.log(`num1===num2==> ${res}`);
 
 // If SSC marks greater than equal to 35 then pass or fail
@@ -49,4 +49,3 @@ marriage(21);
 marriage(20.9);
 marriage(25);
 marriage(26);
-marriage(102)

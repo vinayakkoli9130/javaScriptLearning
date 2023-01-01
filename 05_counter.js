@@ -67,10 +67,9 @@ for (let index = lastCharPosition; index >= 0; index-- ){
 console.log(reverseString)
 
 var words="Life Is Not Complete"
-var reverse="";
-var wordString=words.length-1;
-
-for (let index = 0; index < wordString.length; index--) {
+var reverse=" ";
+var wordString=words.length;
+for (let index = wordString; index > 0; index--) {
    var char=words.charAt(index);
    reverse=reverse.concat(char)
 }

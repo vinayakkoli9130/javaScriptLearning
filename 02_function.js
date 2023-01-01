@@ -1,4 +1,4 @@
-function display( ) {
+function display( ) {//Function not with Argument and return type.
   console.log("My name: Mohit");
   console.log("My sir name is: Sharma");
   
@@ -13,7 +13,7 @@ student();
 
 // Write a function show which should log you college name
 
-function showDetails(myName){
+function showDetails(myName){//function with Argument without Return type
     console.log("Details", myName);
 }
 showDetails("Mohit Sharma");
@@ -58,7 +58,7 @@ function hello(myName){
 hello("Sachin");
 
 console.log("Function with arguments and return value");
-function rajuBhaiya(paisa){
+function rajuBhaiya(paisa){//Function with arguments and return value
   console.log("Going in market", paisa);
   console.log("Purchased fresh vegetables", paisa);
   console.log("Come back");
@@ -68,7 +68,7 @@ function rajuBhaiya(paisa){
  var bagOfVegetables= rajuBhaiya(100);
  console.log(bagOfVegetables);
 
- function worker(workTime) {
+ function worker(workTime) {//Function with arguments and return value
 console.log(workTime);
   return 5;
  }

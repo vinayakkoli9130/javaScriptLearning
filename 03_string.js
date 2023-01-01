@@ -20,7 +20,7 @@ var collegeName=function(val){
 }
 collegeName("Sangola College,Sangola");
 
-console.log("======== concat() ==========");
+console.log("======== concat() ==========");//concatenation Of String using concat() and + operator. 
 var firstName = "Mohit ";
 var lastName = "Sharma";
 // Concatenation using + operator 
@@ -28,48 +28,55 @@ var result = firstName + lastName;
 console.log("Concatenation using + operator:", result);
 var result = firstName.concat(" Ravesh " ,lastName);
 console.log("Concatenation using concat(): ", result);
-
-// var greet = "Good Morning";
-// var indexof = greet.indexOf("M");
-// console.log("Index of character M: ", indexo);
-
-
-
+console.log(`========================================================================================================`);
+ var greet = "Good Morning";
+ var indexof = greet.indexOf("M");
+ console.log("Index of character M: ", indexof);
 var indexOfNin = greet.indexOf("nin");
 console.log("Index of substring nin: ", indexOfNin);
-console.log("slice with negative start index: ", greet.slice(-7));
+console.log("slice with negative start index: ", greet.slice(-7));//slice meanse bite of strings
 console.log("slice with negative start and end index: ", greet.slice(-7, -2));
-
-
-
+console.log(`===============================================================================================`);
 var studList = "Dips|Jenny|Ganni|Manni|Shani";
-var studListSplit = studList.split("|");
+var studListSplit = studList.split("|");//split meanse adding or removing some character
 console.log(" Student list after split by char ,", studListSplit);
 console.log("Total number students: ", studListSplit.length);
-
-
+console.log(`=================================================================================================`);
 var sentence = "Yes you can do it guys, just keep learning and practising as well";
-var wordsInSentence =  sentence.split(" ");
+var wordsInSentence =  sentence.split(" ");//Collect The Total Number Of spaces in a string.
 console.log("Total words in sentence string is: ", wordsInSentence.length);
-
+console.log(`==================================================================================================`);
 
 console.log("======== String template ==========");
-console.log(`Yes you can do it "Sanket"  `);
-
-
+console.log(`Yes you can do it "Sanket"  `);//string template-:string template means you can write Message in backtik(` `) 
+                                            //variable can define using Dollor sign($) curly braces({variable_name })
+console.log(`======================================================================================================`);
 var firstName = "Mohit ";
 var lastName = "Sharma";
 console.log("First name is: "+ firstName + "Last name is: "+ lastName );
 
 console.log(`First name is: ${firstName} and last name is ${lastName}`);
 
-
-    console.log("3) Character at index 11 is", string.charAt(11));
+         //String Is collection Character,it is denoted by "",'',``.
+         console.log(`========================All String Method==========================================`);
+         let bite="Happy New Year Family"
+         console.log(bite);
+         console.log(`Total Number Of Length of string-:${bite.length}`);
+         let word=bite.split(" ")//collect the total number of spaces.
+         let totalLength=bite.length-word.length
+         console.log(`After Remove Spaces of String length-:${totalLength}`);
+         console.log(`Total Number Of Words--:${word.length}`);
+         console.log(`last Character In String--:${bite.charAt(bite.length-1)}`);
+         console.log(`last 3rd Character In String--:${bite.charAt(bite.length-3)}`);
+         console.log(`character at 0th index--:${bite.charAt(0)}`);
+         console.log(`index of e character -:${bite.indexOf("e")}`);
+         console.log(`Index Of a character-:${bite.indexOf("a")}`);
+         console.log(`${bite.slice(3,8)}`);
+         console.log(`${bite.endsWith("x")}`);//endWith()Method Is Used To Given String Is end with given character.
+         console.log(`${bite.startsWith("H")}`);//startWith()Method Is Used To Given String Is start with given character.
+         console.log(`${bite.includes("z")}`);//include() Method Is Used To Given Character Is Available Or Not In String
+         console.log(`${bite.replace("a","z")}`);//replace() Method Is Used To change or replace charcter
+         console.log(`${bite.toLowerCase("H")}`);//toLowerCase()Method Is Used To Given Character Is small case or Upper case
+         
     
-    var totallenght=string.length;
-    console.log("4) Last character is", string.charAt(totallenght-1));
-    console.log("5) First character is", string.charAt(0));
-    console.log("6) Total length of string =", string.length);
-    console.log("7) square of length of string =", string.length*string.length);
-
 

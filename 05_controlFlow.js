@@ -33,3 +33,16 @@ cubeSome(2)
 cubeSome(3)
 cubeSome(4)
 cubeSome(5)
+console.log(`==========================================================================================================`);
+
+let str="Everthing Fear In Love And War"
+let count=" "
+for (let index = 0; index < str.length; index++) {
+    let word=str.charAt(index)
+    let wordCap=word.toLocaleLowerCase()
+  if (wordCap=='a'|| wordCap=='e'|| wordCap=='i'||wordCap=="o"||wordCap=="u") {
+    count=count.concat(" ",wordCap);
+  }
+
+}
+console.log("Total Number Of vowel in Given String",count);

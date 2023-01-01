@@ -35,8 +35,9 @@ var isMarried = false;
 console.log(isMarried, typeof isMarried);
 // Soecial Data type or trival data type
 console.log("==== Learning undefined====");
-var country;// variable declaration
+var country;//variable Is declared but the value is Not Assigned,then the value of that variable will be "undefined"
 console.log(country);
+
 // country = "India"; // Initialization
 // console.log(country);
 var student;
@@ -50,7 +51,7 @@ console.log(typeof 45); var weight=45;
 console.log(typeof "Billgates"); 
 console.log(typeof false); var areYouMad = false;
 console.log("============null================");
-var std= " ";
+var std= " ";//null dataType is object.null is special value that represent an empty value
 console.log(std);
 
 console.log(" Strongly typed vs loosely typed  ");

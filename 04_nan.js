@@ -1,5 +1,5 @@
 //Nan-Not a number
-//The Value
+//In JavaScript NaN Is A Number That Is Not A Legal Number
 
 var resultDivide = 0/0;
 console.log(`Result is: ${resultDivide}`);

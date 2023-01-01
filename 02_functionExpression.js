@@ -2,7 +2,7 @@ var myName;
 console.log(myName);
 
 // Function Expression
-var showResult = function() {
+var showResult = function() {//Function can be stored as value in variable is called function expression.
     console.log("show.....");
 };
 showResult();
