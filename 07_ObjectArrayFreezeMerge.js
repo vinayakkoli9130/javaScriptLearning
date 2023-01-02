@@ -32,8 +32,16 @@ Object.freeze(array)
 console.log(`____________________________________________________________________________________________________________`);
 console.log(`Given a String Company="Codmind Technology"`);
 let arrayString="Codmind Technology";
-function wordsReverser(arrayString){
-    return arrayString.split('').reverse().join('');
-  }
-  console.log(`\nReverse Only Technology Word Of Given String--->Codemind`,wordsReverser('Technology'));
-console.log(`____________________________________________________________________________________________________`);
+let counter=" ";
+ for (let index =arrayString.length-1 ; index >=0 ; index--) {
+  if (index==6) {
+    break;
+ }
+     counter=counter+arrayString.charAt(index)
+   }
+  console.log(counter);
+// function wordsReverser(arrayString){
+//     return arrayString.split('').reverse().join('');
+//   }
+//   console.log(`\nReverse Only Technology Word Of Given String--->Codemind`,wordsReverser('Technology'));
+// console.log(`____________________________________________________________________________________________________`);
