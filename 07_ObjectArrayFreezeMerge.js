@@ -24,7 +24,7 @@ console.log(array);
 console.log(`Traverse String Using "for of" Loop`);
 console.log(`Given Friends Name Is--->`);
 for (const iterator of array) {
-   console.log(`${iterator}`); 
+   console.log(`${iterator}`);
 }
 Object.freeze(array)
 // array.push("Javed")
@@ -40,8 +40,6 @@ let counter=" ";
      counter=counter+arrayString.charAt(index)
    }
   console.log(counter);
-// function wordsReverser(arrayString){
-//     return arrayString.split('').reverse().join('');
-//   }
-//   console.log(`\nReverse Only Technology Word Of Given String--->Codemind`,wordsReverser('Technology'));
-// console.log(`____________________________________________________________________________________________________`);
+
+  console.log(`\nReverse Only Technology Word Of Given String--->Codemind`,counter);
+ console.log(`____________________________________________________________________________________________________`);
