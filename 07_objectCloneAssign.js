@@ -44,7 +44,7 @@ console.log(`===================================================================
  console.log("Country--:",employee_info.address.country);
  console.log(`John Doe Moblie Numbers--:${employee_info.mobiles}`);
 
- let month = JSON.parse(JSON.stringify(employee_info));
+ let month = JSON.parse(JSON.stringify(employee_info));//Deep cloning
  console.log("Before Update July Month salary---> ",month.salary);
  console.log("After Update July Month salary--->",month.salary.july_month="80k");
  console.log(month.salary);

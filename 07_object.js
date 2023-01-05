@@ -1,4 +1,5 @@
 //object is instance of class/object is intity they can have data member and member function.
+//delete keyword are used to delete property.
 const person = {
   height: 6,
   weight: 70,
@@ -22,7 +23,7 @@ console.log(personName);
 
 console.log(`=== Adding an property into an object====`);
 
-console.log(`Salary Of Person${person.salary=500000}`);//adding new data member or property in person objrct.
+console.log(`Salary Of Person${person.salary=500000}`);//adding new data member or property in person object name and which property you want to add.
 console.log(person.salary);//initilise person salary
 person.company = "Microsoft";
  console.log(person);
@@ -51,7 +52,7 @@ person.walk= function(){//adding function walk in object person
     console.log(`Hey I can walk and run man`);
 }
 console.log(person);
-console.log(`==============Nested Object=========================`);
+console.log(`==============Nested Object=========================`);//oject inside object is called nested object
 const student = {
     name: "Stew Jobs",
     age: 50,
@@ -94,7 +95,7 @@ const billgates = {
    company: "Microsoft",
    valuation: "130B $"
 }
-console.log(`========== in operator ================`);
+console.log(`========== in operator ================`);//in operator used to check property is available or not string
  let isAvailable = "height" in billgates;
  
  if (isAvailable) {

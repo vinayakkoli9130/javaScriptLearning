@@ -1,3 +1,6 @@
+//function construction is blue print of an object.
+//prototype is used to assign same value of all object.
+//instanceOf is used to check given Object is available or not in function constructor.
 function Student(name, rollNo, age){//when we create function constructor  use function keyword.
     this.name = name;
     this.rollNo = rollNo;
@@ -7,6 +10,8 @@ function Student(name, rollNo, age){//when we create function constructor  use f
  console.log(s1.rollNo);//log rollNo of s1 object
  let s2 = new Student("Jenny", 22, 35);
  console.log(s1);
+ console.log(2);
+ console.log(s2.name);
 
 
 function Student(name, rollNo, age){

@@ -12,8 +12,8 @@ const professor = {
       certificates2: "Certificate In IFE Cource",
       certificates3: "Certificate In Adv Programing",
       //  add:function () {
-      //    this.Msc+this.PHD+this.College
-      //  }
+      //     this.Msc+this.PHD+this.College
+      //   }
     },
   },
  }

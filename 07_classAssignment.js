@@ -40,13 +40,6 @@ let college2=new College("Shri Sant Damaji Mahavidyalaya","Mangalwedha","B.A,B.C
 let college3=new College(" Fabtech College of Engineering","Sangola","Engineering,B.Pharmacy,D.Pharmacy","Hon. shri. B.A.Rupnar")
 let college4=new College("Shri Vithal Education & Research Institute","Pandharpur","Engineering,B.Pharmacy,D.Pharmacy","Raghunath Shevgaonka")
 
-
-
-
-
-
-
-
 college.details();
 college1.details();
 college2.details();
@@ -55,10 +48,10 @@ college4.details();
  console.log(`===============================================================================================`);
  console.log(`3)`);
 
- function traverseObject(college){
-     for (const key in college) {
-         if (Object.hasOwnProperty.call(college, key)) {
-             const element = college[key];
+ function traverseObject(val){
+     for (const key in val) {
+         if (Object.hasOwnProperty.call(val, key)) {
+             const element = val[key];
              console.log(`${key} : ${element}`);
          }
      }

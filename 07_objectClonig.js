@@ -47,7 +47,7 @@ const empStew = {
     age: 50,
     marks: {
         science: 70, 
-        math: 90,
+        math: 84,
         english: 87
     }
 }
@@ -58,5 +58,7 @@ console.log(empStew);
 console.log(empBill);
 console.log(empStew.marks.science);
 console.log(empBill.marks.science);
-console.log(empStew.marks.science);
-console.log(empBill.marks.science);
+console.log(empBill.marks);
+empBill.marks.math=97
+console.log(empBill.marks);
+
