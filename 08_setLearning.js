@@ -92,7 +92,7 @@ console.log(setOfElements.has(2));//available or not in set
 setOfElements.clear()//used to clear all set
 console.log(setOfElements);
 console.log(`:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::`);
-console.log(`::::::::::Removing Dublicate Elements::::::::::::::::::::::::`);
+console.log(`:::::::::::::::::::::::::Removing Dublicate Elements:::::::::::::::::::::::::`);
 const array=[36,34,24,5,4,7,89,24,5,4,433,4,5,6]
 console.log(array);
 //  let arrayNumber=new Set(array)//Remove duplicate element in array using set.

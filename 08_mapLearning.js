@@ -2,7 +2,7 @@
 //set-:set is used to add element in Map
 //get-:get is used to  initilize key value.
 //delete is used to delete key on the Map.
-//
+//has is used return given key value
 const mapOfNumbers = new Map(); // Creating an Map
 mapOfNumbers.set(11, "Eleven"); // Adding element in key value pair
 mapOfNumbers.set(22, "Twenty Two");
