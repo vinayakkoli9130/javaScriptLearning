@@ -1,6 +1,6 @@
 //String Template Are definade using backtik(``) and 
 //varibale substution using dollar sign and curly braces(${})
-//string template is ES6 feature they can used remove complexcity of program
+//string template is ES6 feature they can used to remove complexcity of program
 const fullName = "Sachin Tendulkar";
 const age = 45;
 const city = "Mumbai";
@@ -24,3 +24,13 @@ function sum(n1, n2=0){
 }
 sum(10, 20);
 sum(10);
+
+// Self Invoking Function or IIFE - Immediately Invoked Function Expression
+
+console.log("Self Invoking Function or IIFE - Immediately Invoked Function Expression");
+
+(function show(){
+    console.log("Bhar bhar ke likho");
+})();
+
+

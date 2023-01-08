@@ -24,6 +24,7 @@ const sunil = {
     company: "Apple"
 }
 //  anil = sunil; // Not allowed
+console.log(an);
 console.log(`====================================freeze()===============================================`);
 // // Array freezing 
  const arrayNumbers = [2, 4, 5, 8];

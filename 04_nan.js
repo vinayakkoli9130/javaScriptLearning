@@ -1,4 +1,4 @@
-//Nan-Not a number
+//Nan-Not a number//typeOf Nan is number
 //In JavaScript NaN Is A Number That Is Not A Legal Number
 
 var resultDivide = 0/0;

@@ -1,3 +1,5 @@
+//Variable is container which is store value-string,boolean,number
+//undefined-variable Is declared but the value is Not Assigned,then the value of that variable will be "undefined"
 var myName; // Variable Declaration
 myName = "Mohit Sharma"; // Variable initialization
 console.log(myName);
@@ -78,6 +80,11 @@ var youAreUgle=true;
  console.log(youAreUgle,typeof youAreUgle );
  var ms="Vinayak Koli";
  console.log(ms, typeof ms);
+//declaration-value
+ var name="vinayak"
+ var number=9130209140;
+ var isMarried=false
+ console.log(name,number,isMarried, typeof name,typeof number,typeof isMarried);
 
 
 

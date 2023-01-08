@@ -1,3 +1,5 @@
+//function-:A Block of Code Designed to perform particular task is called function.
+//block-:peice of code written inside curly braces.
 function display( ) {//Function not with Argument and return type.
   console.log("My name: Mohit");
   console.log("My sir name is: Sharma");
@@ -99,3 +101,36 @@ console.log("before substraction", val1, val2);
   console.log("After Swaping String-:",val1,val2,val3,val4);
  }
  swap(`Ram`,`Sham`,`Shita`,`Gita`)
+
+ console.log(`++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++`);
+ //Function not with Argument and return type.
+ function song() {
+  console.log("Don't Brake My Heart");
+ }
+ song()//function call or invocation
+ console.log(`++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++`);
+  //Function  with Argument and not return type.
+  function name(val1,val1) {
+   console.log(val1,val1); 
+  }
+  name(23,12)
+  console.log(`++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++`);
+    //Function  with Argument and with return type.
+    function vinny(val1,val2) {
+      let result=val1/val2
+      // console.log(result);
+      return result
+    }
+    let re=vinny(21,9)
+    console.log(re);
+    console.log(`==================================================================================`);
+    console.log(`Swaping String In Function`);
+    function swaping(val1,val2,val3) {
+      console.log("Before Swaping",val1,val2,val3);
+      var temp=val1
+      val1=val2,
+      val2=val3,
+      val3=temp
+      console.log("After Swaping",val1,val2,val3);
+    }
+    swaping("Koli","Vinayak","Somning")

@@ -1,5 +1,5 @@
-// Set: Allow unique elements//Set Does Not Duplicate Element
-//add()-:adding elements in set//size-:used find the length of set.//delete()-:delete element in the set.
+// Set: Allow unique elements//Set Does Not Allow Duplicate Element
+//add()-:adding elements in set//size-:used find the length of set.//delete()-:delete a element in the set.
 //has()-: used to check element available or not in the set.//clear()-:used to clear set.
 const setNumbers = new Set(); // Creating Set
 console.log("Adding elements in set");

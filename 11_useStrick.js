@@ -15,3 +15,4 @@ function show(name, name){
     console.log(name, name);
 }
 show("Dhoni", 42);
+

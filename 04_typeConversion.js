@@ -1,9 +1,9 @@
-
+//type conversion-: + operator can do the the type conversion as well from string to number
 console.log(` + operator can do the the type conversion as well from string to number `);
 var numStr = "100";
 var ad = + numStr;
 console.log(`typeof numStr is: ${typeof numStr}`);
-console.log(`typeof num is: ${typeof num}`);
+console.log(`typeof num is: ${typeof ad}`);
 
 var numStr = "Chandra";
 var num = + numStr;
@@ -46,8 +46,8 @@ console.log(add)
 console.log(typeof str);
 
 
-var boolean=  true - "2";
+var boolean=  true / "2";// string not add((+)//with string you can not  perform only(+)
 console.log( boolean);
 
-var boolean= 12 * true;
+var boolean= 12 * true;//with number you can perform all operation.
 console.log( boolean);

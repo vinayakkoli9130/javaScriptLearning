@@ -1,3 +1,6 @@
+//==-: javaScript is automatical covert one data type to another data type as per need
+//===-:javaScript Strictly follow the rule Can't change datatype.
+
 var num1 = 10;
 var num2 = "10";
 console.log(typeof num1);

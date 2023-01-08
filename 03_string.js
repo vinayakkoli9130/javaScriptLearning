@@ -1,3 +1,7 @@
+//String-string is sequence charcter.
+//Index-:index is position of element and index always start with 0
+//split meanse adding or removing some character.
+//concatenation Of String using concat() and + operator. 
 var firstName = "ppppppppppppppppppppppppphhhhhhkklkkhfffDinesh";
 console.log("Given string is ", firstName);
 

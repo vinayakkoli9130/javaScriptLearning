@@ -1,4 +1,4 @@
-//Map-:map can add keys and values.it is override method.they can change value.they don't allow same key
+//Map-:map can add keys and values.it is override method.they can change value.//they don't allow same key
 //set-:set is used to add element in Map
 //get-:get is used to  initilize key value.
 //delete is used to delete key on the Map.
@@ -9,7 +9,8 @@ mapOfNumbers.set(22, "Twenty Two");
 mapOfNumbers.set(2, "Two");
 mapOfNumbers.set(11, "Ten + One"); 
 mapOfNumbers.set(33, "Eleven");
-console.log(mapOfNumbers);
+mapOfNumbers.get(11)
+console.log(mapOfNumbers)
 
 const valueForKey22 =  mapOfNumbers.get(22);//get can be used to initilize key value.
 console.log(valueForKey22);
