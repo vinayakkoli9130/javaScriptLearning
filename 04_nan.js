@@ -18,6 +18,7 @@ var resultMod = resultDivide % 2;
 console.log(`resultMul is: ${resultMod}`);
 console.log(`Type of  ${resultMod} is ${typeof resultMod}`);
 
-
+let va=0/0;
+console.log(va);
 
 
