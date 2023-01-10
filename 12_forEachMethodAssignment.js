@@ -6,7 +6,7 @@ console.log(`----------------1)Element With Index Number-----------------`);
 arrayNumbers.forEach((value,index)=>{
 console.log("Value Is-:",value,"Index Is-:",index);
 if (value>=0) {
-   positiveValue.push(value,index) 
+   positiveValue.push(value) 
 }
 else{   
 negativeValue.push(value)

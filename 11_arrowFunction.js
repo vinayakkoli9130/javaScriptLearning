@@ -1,4 +1,4 @@
-var show = ()=>{
+var show = ()=>{//arrow function can be store as value in one variable like function expression
     console.log("Hello");
 }
 show();

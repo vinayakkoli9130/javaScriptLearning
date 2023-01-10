@@ -1,10 +1,10 @@
 // Given the home work
-
+//callback-:function can be used as argument to another function is called callback
 // Anil -> Homework
 function anilHomeWork(callback){
     console.log("Anil is doing homework... ");
     console.log("After some time.. Anil did homework..");
-    callback();
+     callback();
 }
 
 // Sunil -> Homework

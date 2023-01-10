@@ -1,6 +1,6 @@
-//When We Use 'use strick' then program code is clearally write and easy to understand.
+//When We Use 'use strick' the code should be executed the strict mode.this makes it easier to write good and secure js code
 'use strict'//
-let city = "Pune";
+ let city = "Pune";
 console.log(city);
 
 const person = {

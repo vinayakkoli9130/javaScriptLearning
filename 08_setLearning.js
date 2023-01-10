@@ -1,7 +1,7 @@
 // Set: Allow unique elements//Set Does Not Allow Duplicate Element
 //add()-:adding elements in set//size-:used find the length of set.//delete()-:delete a element in the set.
 //has()-: used to check element available or not in the set.//clear()-:used to clear set.
-const setNumbers = new Set(); // Creating Set
+const setNumbers = new Set(); // Creating Set using new kryword 
 console.log("Adding elements in set");
 setNumbers.add(0); // Add element
 setNumbers.add(1);
@@ -21,7 +21,6 @@ const isDeleted3 = setNumbers.delete(3);
 const isDeleted99 = setNumbers.delete(99);
 console.log(setNumbers);
 console.log(`Is 3 Deleted ? ${isDeleted3}, Is 99 Deleted: ${isDeleted99}`);
-
 console.log(`Check element is available or not using has()`);
 const isAvailable4 = setNumbers.has(4);
 const isAvailable77 = setNumbers.has(77);

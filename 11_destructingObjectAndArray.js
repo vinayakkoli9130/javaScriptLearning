@@ -1,4 +1,4 @@
-// Object Destructuring-:is ES feature is used to 
+//Destructuring-:is ES6 feature makes easy to extract properties from object or an element from an array. 
 console.log(`============================ Object Destructuring ============================= `);
 const person = {
     name: "Virat Kohli",
@@ -19,7 +19,6 @@ console.log(`===================================================================
 const arrayCompanys = ["TCS", "Infy", "Google", "Twitter", "Metaverse"];
 let [ companys1, companys2, mad ] = arrayCompanys; // Array Destructuring
 console.log(companys1,companys2, mad);
-
 console.log("========================Array Destructuring======================================");
 const arrayCompany = ["TCS", "Infy", "Google", "Twitter"];
 let [ company1, company2, company3, company4, company5="Microsoft" ] = arrayCompany; // Array Destructuring

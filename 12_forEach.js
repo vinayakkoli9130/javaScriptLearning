@@ -10,7 +10,7 @@ arrayNumbers.forEach(function(currentValue){
 arrayNumbers.forEach((currentValue)=>{
     console.log(currentValue);
 });
-
+//for each used callback function you can perform some operation
 arrayNumbers.forEach(currentValue=>console.log(currentValue));
 
 // console.log("======== Find even numbers==========");
