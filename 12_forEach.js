@@ -2,7 +2,6 @@ const arrayNumbers= [10, 3, 4, 50, 6];
 arrayNumbers.forEach(function(currentValue, index, array){
  console.log(currentValue, index, array);
 });
-
 arrayNumbers.forEach(function(currentValue){
     console.log(currentValue);
    });

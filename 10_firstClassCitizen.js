@@ -1,6 +1,6 @@
 
 // why we call function as First class citizen in JS
-// 1. We can store function as a value
+// 1. We can store function as a value in variable
 let functionExpr= function(){
     console.log("Inside function expression");
 }

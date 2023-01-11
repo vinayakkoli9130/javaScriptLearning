@@ -8,8 +8,13 @@ console.log("Value Is-:",value,"Index Is-:",index);
 if (value>=0) {
    positiveValue.push(value) 
 }
-else{   
-negativeValue.push(value)
+// else{   
+// negativeValue.push(value)
+// }
+})
+arrayNumbers.forEach((value)=>{
+if(value<0){
+   negativeValue.push(value)
 }
 })
 console.log(`-------------------------------------------------------------------------------`);
