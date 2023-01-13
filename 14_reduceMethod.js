@@ -18,3 +18,21 @@ const array = [20, 11, 40, 25, 37, 49, 9, 90, 60, 2, 19];
   const resultSum = array.filter( value => value%2==0)
   .reduce((runningTotal, value) => runningTotal + value);
   console.log(resultSum);
+  console.log(`====================================`);
+  const arrayOf=[47,34,55,66,34,87,34,22,34,]
+  const sumOf= arrayOf.reduce((runningTotal,value)=>{
+return runningTotal + value
+  })
+console.log("Given Array-:",arrayOf);
+console.log("Sum Of All Array-:",sumOf);
+
+const evenNo=arrayOf.filter(value=>value%2==0 )
+console.log(evenNo);
+
+const sum=evenNo.reduce((currentValue,value)=>{
+return currentValue + value
+})
+console.log("Sum Of All Even Number-:",sum);
+
+const sumOfOddNumber=arrayOf.filter(value=>value%2==1).reduce((currentValue,index)=>currentValue + index)
+console.log(sumOfOddNumber);

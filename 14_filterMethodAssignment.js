@@ -16,8 +16,8 @@ const empViny = new Employee( 88,"Vinayak","IT", 75000,"TCS")
 const empMahi = new Employee( 99,"Mahesh","HR",85000 ,"Infy")
 console.log(`======================Filter() Method=========================`);
 const array=[empAnil,empRadha,empRishi,empSonali,empMonika,empViny,empMahi]
-const arrayFilterEmployee = array.filter( (company) =>{return company.empCompany=="TCS"} );
-        console.log();
+const arrayFilterEmployee = array.filter( company => company.empCompany=="TCS" );
+        // console.log(arrayFilterEmployee);
         arrayFilterEmployee.forEach((element)=>{
 console.log("Company Name-:",element.empCompany ,"Employee Name-:",element.empName);
         })

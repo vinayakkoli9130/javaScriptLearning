@@ -6,7 +6,7 @@ arrayNumbers.forEach(function(currentValue){
     console.log(currentValue);
    });
 
-arrayNumbers.forEach((currentValue)=>{
+arrayNumbers.forEach((currentValue)=>{//=>Arraw Function
     console.log(currentValue);
 });
 //for each used callback function you can perform some operation

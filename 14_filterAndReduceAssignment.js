@@ -27,7 +27,7 @@ department=array.filter(value=>value.empDept=="IT" || value.empDept=="HR")
 department.forEach((value)=>{
     console.log(value);
 })
-console.log(`=============3) Find Out All Employee Whose Employee ID Is Greater Than 50 t=============`);
+console.log(`=============3) Find Out All Employee Whose Employee ID Is Greater Than 50 =============`);
 const id=array.filter(value=>value.empId>50)
   id.forEach(value=>{
     console.log(value);

@@ -21,7 +21,7 @@ const arrayOfNum = [0, 20, 3, 5, 6, 10];
     let hero =new Vehicle("Hero","Splender","Petrol","Two Wheeler",85000);
     console.log("====== Filter out vehicles whose prices are greater than 200000=======");
     const arrayOfVehicles = [ audiA3, audiQ3, mahindra, honda, hero];
-    const arrayFilterVehicle = arrayOfVehicles.filter( (vehicle) =>{return vehicle.price > 200000;} );
+    const arrayFilterVehicle = arrayOfVehicles.filter( vehicle => vehicle.price > 200000 );
     arrayFilterVehicle.forEach( (element) => {
         console.log(element.company, element.price);
     } );

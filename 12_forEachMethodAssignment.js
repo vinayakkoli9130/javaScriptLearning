@@ -1,7 +1,7 @@
 const arrayNumbers=[1,-7,40,502,-77,91,0,108,89,-601]
 console.log("Given Array",arrayNumbers);
 let positiveValue=[]
-let negativeValue=[]
+
 console.log(`----------------1)Element With Index Number-----------------`);
 arrayNumbers.forEach((value,index)=>{
 console.log("Value Is-:",value,"Index Is-:",index);
@@ -12,6 +12,7 @@ if (value>=0) {
 // negativeValue.push(value)
 // }
 })
+let negativeValue=[]
 arrayNumbers.forEach((value)=>{
 if(value<0){
    negativeValue.push(value)
