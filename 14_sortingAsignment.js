@@ -21,4 +21,9 @@ console.log(arrayRollNumber);
 console.log(`Smallest Element In Given Array Is-:11`);
 console.log(`=============6) Remove Duplicate Element In Given Array ===========`);
 const array= new Set(arrayRollNumber)
-console.log(array);
+array.forEach((element)=>{
+    console.log(element);
+
+})
+
+

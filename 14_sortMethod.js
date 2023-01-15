@@ -51,3 +51,36 @@ let hero =new Vehicle("Hero","Splender","Petrol","Two Wheeler",85000);
  arrayOfVehicles.forEach((currentValue)=>{
     console.log(currentValue.company, currentValue.price);
  });
+
+ console.log(`===============================================================================================`);
+const stringOfArray=["orange","Banana","Pinapple","Apple","Strobarry","Mango",]
+console.log(stringOfArray);
+
+stringOfArray.forEach(element => {
+  
+    console.log(`${element}`);
+});
+console.log(`Reverce Given Array-:`);
+stringOfArray.reverse()
+console.log(stringOfArray);
+console.log(`Arrange Array In Ascending Order-:`);
+stringOfArray.sort()
+console.log(stringOfArray);
+console.log(`Arrange Array In Descending Order-:`);
+stringOfArray.reverse()
+console.log(stringOfArray);
+console.log(`--------------------------------------------------------------------------------------------------------------------`);
+const array=[45,79,42,61,42,97,92,39,46,12,28,1,7,98,08,9,24,97,64]
+console.log(array);
+array.sort()
+console.log(array);
+array.reverse()
+console.log(array);
+const ascendingOrder=array.sort((a,b)=>{
+    return a>b?1:-1;
+})
+console.log(ascendingOrder);
+console.log(ascendingOrder.reverse())
+const duplicate= new Set(ascendingOrder);
+console.log(duplicate);
+duplicate.forEach(element=>console.log(`${element}`))

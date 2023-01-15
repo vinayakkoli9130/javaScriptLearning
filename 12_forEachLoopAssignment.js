@@ -38,7 +38,7 @@ let size=array.length
 console.log("Total Numbers Of Employee-:",size);
 console.log("Total Salary Of Employees-:",sumOfArray);
 console.log("Average Salary-:",sumOfArray/size);
-console.log(`====================5)Employee "IT" Or "HR" Department Salary  Is Greater Than Or Equal To 75000=======================================================`);
+console.log(`====================5)Employee "IT" Or "HR" Department Salary  Is Greater Than Or Equal To 75000============================`);
 array.forEach((value)=>{
 if((value.empDept=="IT"|| value.empDept=="HR") && value.empSalary>=75000){
 console.log(value);

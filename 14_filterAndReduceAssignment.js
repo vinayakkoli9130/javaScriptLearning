@@ -51,7 +51,7 @@ const deptSalary=array.filter((value)=>{
   return value.empDept=="IT"
 })
 // console.log(deptSalary);
-const avg=deptSalary.reduce((Curentvalue,screen)=>{
-  return Curentvalue+ screen.empSalary
+const avg=deptSalary.reduce((Curentvalue,value)=>{
+  return Curentvalue+ value.empSalary
 },0)
 console.log("               -:Average Salary Of IT Department Employee-:",avg/deptSalary.length);
