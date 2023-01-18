@@ -51,6 +51,12 @@ let hero =new Vehicle("Hero","Splender","Petrol","Two Wheeler",85000);
  arrayOfVehicles.forEach((currentValue)=>{
     console.log(currentValue.company, currentValue.price);
  });
+ let driving=arrayOfVehicles.sort((a,b)=>{
+return a.drive>b.drive?1:-1;
+ })
+driving.forEach((value)=>{
+console.log(value.model,value.drive);
+})
 
  console.log(`===============================================================================================`);
 const stringOfArray=["orange","Banana","Pinapple","Apple","Strobarry","Mango",]
@@ -84,3 +90,18 @@ console.log(ascendingOrder.reverse())
 const duplicate= new Set(ascendingOrder);
 console.log(duplicate);
 duplicate.forEach(element=>console.log(`${element}`))
+
+console.log(`-------------------------------------------------------------------------`);
+const arraysOfValue=[626,34,24,5,2,,34,565,43,,2,67,543,34,56,7,7654,]
+let year=arraysOfValue.sort((a,b)=>{
+return a>b?1:-1
+})
+console.log(year);
+let a=[]
+console.log(year.reverse());
+year.forEach((value)=>{
+console.log(value);
+})
+arrayOfSubject=["Java","Python","C++","Data Structure","Computer Science","Fundamental Of Computer","C language"]
+console.log(arrayOfSubject.sort());
+console.log(arrayOfSubject.reverse());

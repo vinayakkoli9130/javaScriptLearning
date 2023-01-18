@@ -42,6 +42,7 @@ console.log(`==============5) Find The  Average Salary Of Employee For All Depar
  const arrayLength= array.length
 sum=0;
 const avarege=array.filter(value=>sum=sum+value.empSalary)
+// console.log(sum/arrayLength);
 const sumOfSalary=avarege.reduce((Curentvalue,employee)=>{
  return sum/arrayLength;
 })

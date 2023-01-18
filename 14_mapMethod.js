@@ -1,5 +1,8 @@
 console.log("=======map()=============");
 const arrayOfNumber = [0, 2, 3, 5, 6];
+// const arrayOf=arrayOfNumber.forEach((value)=>{
+//     console.log(value+10);
+//     })
 // [ 10,  12, 13, 15, 16 ]
 const arrayTransform = arrayOfNumber.map((currentValue)=>{
     return currentValue+10; // 0+10  2+10 
@@ -9,6 +12,7 @@ const arrayOfSquare =arrayOfNumber.map((currentValue)=>{ // 0
     return currentValue * currentValue; // 4
 });
 console.log(arrayOfSquare);
+
 console.log(`======================================================================================`);
 const arrayOfSquare1 =arrayOfNumber.map(currentValue =>  currentValue * currentValue);
 console.log(arrayOfSquare);

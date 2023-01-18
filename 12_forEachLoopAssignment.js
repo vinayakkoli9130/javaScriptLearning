@@ -21,7 +21,7 @@ if (value.empCompany=="TCS") {
     console.log(value);
 }
 })
-console.log(`=====================3)  Employee Salary Greater Than Or Equal To 50000 Details=============== `);
+console.log(`=====================2)  Employee Salary Greater Than Or Equal To 50000 Details=============== `);
 array.forEach((value)=>{
 if (value.empSalary>=50000) {
     console.log(value);
