@@ -1,4 +1,4 @@
-//Destructuring-:is ES6 feature makes easy to extract properties from object or an element from an array. 
+//Destructuring-:is ES6 feature makes easy to extract/pull out/remove properties from object or an element from an array. 
 console.log(`============================ Object Destructuring ============================= `);
 const person = {
     name: "Virat Kohli",

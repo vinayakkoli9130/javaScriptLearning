@@ -7,16 +7,17 @@
         <h2> Session Storage Learning</h2>
 <script>
         console.log("Hello --> Session storage");
-        window.sessionStorage.setItem("name", "Sitaram");
+                                      //key   //value
+        window.sessionStorage.setItem("name", "Sitaram");//adding elements in session Storage
         window.sessionStorage.setItem("grade", "A+");
         window.sessionStorage.setItem("college", "Fabtech College");
         window.sessionStorage.setItem("city", "Sangola");
-        const len = window.sessionStorage.length;
+        const len = window.sessionStorage.length;//length of session storage
         console.log(len);
-        const clgName = window.sessionStorage.getItem("college");
+        const clgName = window.sessionStorage.getItem("college");//show key value;
         console.log(clgName);
-        window.sessionStorage.removeItem("grade");
-        // window.sessionStorage.clear();
+        window.sessionStorage.removeItem("grade");//remove element from the window
+        // window.sessionStorage.clear();//clear all Window
     </script>
 
     </body>

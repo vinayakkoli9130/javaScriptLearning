@@ -7,7 +7,6 @@ function anotherFunction(){
 // }
 // show("Sachin", 45, "Mumbai", 101);
 
-
 function show(myNumber){ // myNumber is an argument
     myNumber();
     let innerFunction = function(){

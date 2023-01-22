@@ -3,7 +3,7 @@
 //has()-: used to check element available or not in the set.//clear()-:used to clear set.
 const setNumbers = new Set(); // Creating Set using new kryword 
 console.log("Adding elements in set");
-setNumbers.add(0); // Add element
+setNumbers.add(0); // Adding element in set 
 setNumbers.add(1);
 setNumbers.add(3);
 setNumbers.add(4);
@@ -27,7 +27,6 @@ const isAvailable77 = setNumbers.has(77);
 console.log(
   `Is 4 Available - ${isAvailable4}, Is 77 available - ${isAvailable77}`
 );
-
 console.log(`Clearing set using clear() `);
 // setNumbers.clear();//clear method is used to clear set
 console.log(setNumbers);
