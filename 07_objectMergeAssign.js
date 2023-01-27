@@ -6,7 +6,6 @@ const car={
 const carEngine={
     enginePower:"1499CC",
     maxPower:"113 BHP"
-
 }
 console.log(`----------Given Objects------`);
 console.log(`Car--->`,car);

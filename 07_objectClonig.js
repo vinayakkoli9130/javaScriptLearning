@@ -20,7 +20,7 @@ console.log(`======Deep Clone always performed on primitive data type=====`);
      name: "Sunny",
      company: "Google"
  }
- vinny = sunny; // Shallow cloning//vinny Object pointing sunny Object, vinny object can accuses sunny object values
+ vinny = sunny; // Shallow cloning//vinny Object pointing sunny Object, vinny object can accusses sunny object values
  sunny.country = "India";
  console.log("Sunny: ", sunny); // 
  console.log("Vinny: ", vinny); //
@@ -34,7 +34,7 @@ let empSumit = {
 // ... Spread Operator
 // console.log(empSumit);
 // console.log({... empSumit});
-let empMohit = {...empSumit}; // Deep Cloning using spread operator (... ) 
+let empMohit = {...empSumit}; // Deep Cloning using spread operator (... ) //when we use sprade operator then 
 empMohit.empName = "Mohit";
 console.log(empMohit);
 console.log(empSumit);

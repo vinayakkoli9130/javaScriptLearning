@@ -1,3 +1,4 @@
+//Function Expression-: Function Can be Store As Value In Variable.
 var square=function(num){
     console.log("squre of number-:", num,"=", num*num);
 }

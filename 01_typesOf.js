@@ -13,7 +13,7 @@ console.log("-------------------------------------------------------------------
 console.log(typeof isWorking );
 console.log("--------------------------------------------------------------------------------------------")
 var totlCount="Hundred and Seven";
-console.log( totlCount);
+console.log(totlCount);
 console.log(typeof totlCount);
 console.log("--------------------------------------------------------------------------------------------")
 

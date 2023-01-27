@@ -1,6 +1,3 @@
-
-
-
 function fNumber(val) {
     var count=1
 for (let index = 1; index <=val; index++) {
@@ -20,12 +17,8 @@ function sumCube(val){
 for (let index = 0; index <val.length; index++) {
   var add= val*val*val;
   counter=counter+add; 
-  
-  console.log(counter);
-  
+  console.log(counter); 
 }
-
-
 }
 sumCube(1);
 sumCube(2); 

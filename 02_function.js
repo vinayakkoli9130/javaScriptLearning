@@ -1,13 +1,14 @@
-//function-:A Block of Code Designed to perform particular task is called function.
+//function-:A Block of Code Designed To Perform Particular Task Is Called Function.
 //block-:peice of code written inside curly braces.
-function display( ) {//Function not with Argument and return type.
+function display( ) {//Function with not parameter/Argument and return type.
   console.log("My name: Mohit");
   console.log("My sir name is: Sharma");
   
 }
 
 display(); // Function call or function invocation
-  function student() {     
+ 
+function student() {     
   console.log("Vinayak Somning Koli");
   
 }
@@ -21,8 +22,7 @@ function showDetails(myName){//function with Argument without Return type
 showDetails("Mohit Sharma");
 
 function myName(val1,val2) {
-  console.log(val1,val2);
-  
+  console.log(val1,val2); 
 }
 myName("Vinayak", "Koli");
 
@@ -57,9 +57,9 @@ concat("a","b","c","d","e")
 function hello(myName){
     console.log(myName);
 }
-hello("Sachin");
+hello("Vinayak");
 
-console.log("Function with arguments and return value");
+console.log("-------Function with arguments and return value-----------");
 function rajuBhaiya(paisa){//Function with arguments and return value
   console.log("Going in market", paisa);
   console.log("Purchased fresh vegetables", paisa);
