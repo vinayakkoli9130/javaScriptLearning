@@ -121,8 +121,10 @@ console.log("before substraction", val1, val2);
       // console.log(result);
       return result
     }
-    let re=vinny(21,9)
-    console.log(re);
+    console.log(vinny(21,9));
+    console.log(`===================`);
+    let rest=vinny(21,9)
+    console.log(rest);
     console.log(`==================================================================================`);
     console.log(`Swaping String In Function`);
     function swaping(val1,val2,val3) {
@@ -134,3 +136,29 @@ console.log("before substraction", val1, val2);
       console.log("After Swaping",val1,val2,val3);
     }
     swaping("Koli","Vinayak","Somning")
+
+
+    console.log(`------------------------------------------------------------`);
+    function add(a,b) {
+      return a+b;
+      
+    }
+   console.log(add(12,12));
+   console.log(add(2,3)); 
+   console.log("123",123);
+
+   function swaping(val1,val2,val3) {
+    console.log("Before",val1,val2,val3);
+    const temo=val1
+    val1=val2;
+    val2=val3;
+    val3=temo;
+    console.log("After",val1,val2,val3);
+   }
+swaping("Vinayak","Arman","Samarth")
+
+// let val1=23
+// console.info(val1)
+// console.warn("Silent Study Is Success ");
+// console.error("Mobile Using Is Good But Every TiMe We Using It IS Not Good")
+// // console.clear()

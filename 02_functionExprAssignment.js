@@ -37,7 +37,17 @@ console.log("Total Number Of Character In String-:", val1.length);
  console.log("Last Charater On The String-:", val1.charAt(lengthTotal-1));
 console.log( "First Character On the String-:", val1.charAt(0));
 console.log("Total length of string Square is-:",val1.length*val1.length);
+// console.log(lengthTotal * lengthTotal);
 console.log("======================================================================");
 
 }
 string("JS the most popular language");
+
+
+
+
+const addition=function (val1,val2) {
+    console.log(val1+val2);
+}
+addition(12,12)
+addition("Vinayak","Koli")

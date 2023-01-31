@@ -26,8 +26,9 @@ square(100);
 square(34);
 
 var cube=function(val){
+    console.log(typeof cube);
 console.log("Cube Of Number",val,"=",val * val * val);
-typeof cube;
+
 var sum=val * val * val
 console.log(sum+sum);
 }

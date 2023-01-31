@@ -41,3 +41,4 @@ let add=addThreeValue(10.23,600,40);
 console.log(add);
 let sun=addThreeValue("Hello","Good","Morning");
 console.log(sun);
+

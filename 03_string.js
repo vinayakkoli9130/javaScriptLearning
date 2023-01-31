@@ -5,22 +5,22 @@
 var firstName = "ppppppppppppppppppppppppphhhhhhkklkkhfffDinesh";
 console.log("Given string is ", firstName);
 
-console.log("Total character in the string is: ", firstName.length);
+console.log("Total character in the string is: ", firstName.length);//length of string
 
-console.log("Char at index 3: ", firstName.charAt(3));
+console.log("Char at index 3: ", firstName.charAt(3));//character of index 3
 
 var lengthTotal = firstName.length;
 
-console.log("Char at last index : ", firstName.charAt(lengthTotal-1));
+console.log("Char at last index : ", firstName.charAt(lengthTotal-1));//last character of string.
 console.log("========================================================================================================")
 var collegeName=function(val){
     console.log("Given String-:",val);
-    console.log("Total number string-:",val.length);
-    console.log("6th possition of string",val.charAt(6));
-    console.log("11th possition of string",val.charAt(11));
-    console.log("0th possition of string",val.charAt(0));
+    console.log("Total number string-:",val.length);//length of string
+    console.log("6th possition of string",val.charAt(6));//character of index 6
+    console.log("11th possition of string",val.charAt(11));//character of index 11
+    console.log("0th possition of string",val.charAt(0));//character of index 0
     // var  lengthTotal = val.length;
-    console.log("last possition of string",val.charAt(val.length-1));
+    console.log("last possition of string",val.charAt(val.length-1));//last possition of string
 }
 collegeName("Sangola College,Sangola");
 
@@ -30,25 +30,28 @@ var lastName = "Sharma";
 // Concatenation using + operator 
 var result = firstName + lastName;
 console.log("Concatenation using + operator:", result);
-var result = firstName.concat(" Ravesh " ,lastName);
+//concatenation using concat() method.
+var result = firstName.concat(" Ravesh " ,lastName);//concatenation using concat() method.
 console.log("Concatenation using concat(): ", result);
+
 console.log(`========================================================================================================`);
  var greet = "Good Morning";
- var indexof = greet.indexOf("M");
+ var indexof = greet.indexOf("M");//find the index of element "M" In Given String.
  console.log("Index of character M: ", indexof);
-var indexOfNin = greet.indexOf("nin");
+var indexOfNin = greet.indexOf("nin");//index of given substring they can show only first char index
 console.log("Index of substring nin: ", indexOfNin);
 console.log("slice with negative start index: ", greet.slice(-7));//slice meanse bite of strings
 console.log("slice with negative start and end index: ", greet.slice(-7, -2));
 console.log(`===============================================================================================`);
 var studList = "Dips|Jenny|Ganni|Manni|Shani";
-var studListSplit = studList.split("|");//split meanse adding or removing some character
+var studListSplit = studList.split("|");//split meanse adding or removing some character//sepreate words add create new array.
 console.log(" Student list after split by char ,", studListSplit);
 console.log("Total number students: ", studListSplit.length);
 console.log(`=================================================================================================`);
 var sentence = "Yes you can do it guys, just keep learning and practising as well";
 var wordsInSentence =  sentence.split(" ");//Collect The Total Number Of spaces in a string.
-console.log("Total words in sentence string is: ", wordsInSentence.length);
+console.log(wordsInSentence);
+console.log("Total words in sentence string is: ", wordsInSentence.length);//
 console.log(`==================================================================================================`);
 
 console.log("======== String template ==========");
@@ -65,7 +68,7 @@ console.log(`First name is: ${firstName} and last name is ${lastName}`);
          console.log(`========================All String Method==========================================`);
          let bite="Happy New Year Family"
          console.log(bite);
-         console.log(`Total Number Of Length of string-:${bite.length}`);
+         console.log(`Total Number Of Length of string-:${bite.length}`);//Total Length Of String.
          let word=bite.split(" ")//collect the total number of spaces.
          let totalLength=bite.length-word.length
          console.log(`After Remove Spaces of String length-:${totalLength}`);
