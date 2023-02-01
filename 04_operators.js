@@ -31,7 +31,9 @@ console.log(`Division is ${num1 / num2}`);
  var num3 = 10;
  var result = ++num3; // num3 = num3 + 1;//(++)Value Can Increment By 1.
  console.log(`Increment operator  result is ${result}`);
-
+var num6= 12;
+num5=num6++;//not increament after the value ++ operator;
+console.log(num5);
  var num4 = 5;
  var res = --num4; //num4 -1;//(--)Value Can Decrement By 1.
  console.log(`Decrement operator result is ${res}`);
@@ -42,11 +44,11 @@ console.log(`Division is ${num1 / num2}`);
 // var num1 = 10;
 // var num2 = 5;
 //  num1 += num2; // num1 = num1 + num2
-//               // num1 = 15;
+//               // num1 = 15;  //Compound Addition
  console.log(`Compound Addition ${num1+=num2}`);//Addition Of num1 and num2 using(+=)operator
 
 // var num1 = 10;
-// var num2 = 5;
+// var num2 = 5;                  //Compound Substraction.
  console.log(`Compound Subtraction ${num1-=num2}`); // num1 = 15 - 5//subtraction Of num1 and num2 using(-=)
 
  console.log(`============ Comparison Operators =================`);
@@ -66,7 +68,7 @@ console.log(`Division is ${num1 / num2}`);
 // var result = num1 <= num3;
  console.log(`<= Operator - Less than equal ==> ${num1<=num2}`);
 
- console.log(`Check even or ODD: ${11%2}`);
+ console.log(`Check even or ODD-: ${11%2?"odd":"Even"}`);
 
 
 

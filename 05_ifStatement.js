@@ -20,7 +20,7 @@ if (num2>num1 && num2>num3) {
 if (num3>num1 && num3>num2) {
     console.log(`You are greater man ${num3}`);  
 }
-
+console.log(`------------------------------------------------------------------------------------------`);
 function evenOrOdd(value){
     if (value%2==0) {
         return evenOrOdd;
@@ -28,7 +28,8 @@ function evenOrOdd(value){
     if (value%2!=1) {
         return evenOrOdd;
     }
-   
 }
-var res=evenOrOdd(45);
-console.log(res);
+let result=evenOrOdd(46)
+console.log(`Number even or odd ${result}`);
+
+

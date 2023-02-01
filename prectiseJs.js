@@ -114,3 +114,80 @@ console.log(se*se);
 }
 squreOf("JavaScript")
 
+let greater=function (val1,val2) {
+    return val1>val2?"Value1 Is Greater Than Value-2":"Value1 Is Less Than Value-2"
+}
+console.log(greater(10,-10));
+console.log(greater(800,900));
+
+const evenOdd= function (val) {
+    return val.length%2?"Odd Number":"Even Number"
+}
+console.log(evenOdd("JavaScipt"));
+console.log(evenOdd("Google"));
+// console.log(evenOdd(29));
+// console.log(evenOdd(44));
+// console.log(evenOdd(0));
+// console.log(evenOdd(101));
+
+function maleMarriageEligibility(gender,age,boyName) {
+    return age>=21?`Hey ${boyName} you are eligible for marriage`:`Sorry ${boyName} you Are Not Eligible for Marriage`
+}
+console.log(maleMarriageEligibility("male",25,"Billgates"))
+console.log(maleMarriageEligibility("Male",17,"Stew jobs"));
+console.log(`------------------------------------------------------------------------------------------------`);
+
+const eligible= function (age) {
+    
+    
+    if (age>=18 && age<=120) {
+       console.log("You Are Eligible For Voting"); 
+    }
+    if (age<18 && age>=1) {
+        console.log("You Are Not Eligible for voting");
+    }
+    if (age<=0 || age >120) {
+        console.log("Invalid Data");
+    }  
+}
+eligible(45)
+eligible(17)
+eligible(8)
+eligible(20)
+eligible(-20)
+eligible(200)
+eligible(0)
+console.log(`-------------------------------------------------------------------------------------------------`);
+function gradeCalculation(mark) {
+    if (mark>=90 && mark<=100) {
+       console.log("A+"); 
+    }
+    if (mark>=75 && mark<90) {
+       console.log("A"); 
+    }
+    if (mark>=50 && mark<75) {
+      console.log("B");  
+    }
+    if (mark>=35&&mark<50) {
+       console.log("C"); 
+    }
+    if (mark<35 && mark>=1) {
+       console.log("Fail"); 
+    }
+    if (mark<=0 || mark>=100) {
+     console.log("Inavalid Data");   
+    }
+}
+gradeCalculation(98)
+gradeCalculation(80)
+gradeCalculation(90)
+gradeCalculation(0)
+gradeCalculation(150)
+gradeCalculation(-7)
+gradeCalculation(35)
+gradeCalculation(29)
+gradeCalculation(64)
+gradeCalculation(49)
+console.log(`------------------------------------------------------------------------------------------------`);
+
+

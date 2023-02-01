@@ -7,9 +7,10 @@ function maleMarriageEligibility(gender,age,boyName) {
 } 
 
 
-var res =  maleMarriageEligibility("Male",25,"Billgates");
-console.log(res);
-console.log("===========================");
+  // maleMarriageEligibility("Male",25,"Billgates");
+console.log( maleMarriageEligibility("Male",25,"Billgates"));
+console.log( maleMarriageEligibility("Female",24,"Jemmy"));
+console.log("=========================================================");
 var votingEligibility = function(age){
     if(age<=0 || age>120 ){
         console.log(`Age value : ${age}, Invalid data`);
@@ -25,9 +26,9 @@ votingEligibility(20);
 votingEligibility(89);
 votingEligibility(1500);
 votingEligibility(0)
-
+console.log(`==============================================================================================`);
 console.log(`Boomm booom`);
-var isRoadBlocked = false;
+var isRoadBlocked = true;
 if(isRoadBlocked){
     console.log(`Traveling thru express way`);
     console.log(`Travel will be short just for 2 hrs`);
@@ -48,6 +49,7 @@ var votingEligibility = function (age){
         console.log(`Invalid data: ${age}`);
     } else {
        console.log(`Valid data:${age}`); 
+       
        if (age>=18) {
         console.log(`Congratulation you can vote: ${age}`);
        }else{
@@ -58,7 +60,7 @@ var votingEligibility = function (age){
 votingEligibility(230);
 votingEligibility(-20);
 votingEligibility(10);
-
+console.log(`--------------------------------------------------------------------------------------------------`);
 function isEvenOrOdd(num) {
   if (typeof num == "number") {
     console.log(`Valid number ${num}`);

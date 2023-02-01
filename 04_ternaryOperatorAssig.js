@@ -25,3 +25,16 @@ var lengthOFWord=function(val) {
 lengthOFWord("JavaScript");
 lengthOFWord("Developer");
 lengthOFWord("Google");
+
+function oddEven(val) {
+ return val.length%2?"Odd ":"Even" 
+}
+console.log(oddEven("Mahesh"));
+console.log(oddEven("Vinayak"));
+
+
+function upperCas(val) {
+   return val.length , val.trim().length-4;
+}
+console.log(upperCas("   vinayak      "));
+

@@ -1,4 +1,4 @@
-//==-: javaScript is automatical covert one data type to another data type as per need
+//==-: javaScript is automatical convert one data type to another data type as per need
 //===-:javaScript Strictly follow the rule Can't change datatype.
 
 var num1 = 10;
@@ -7,7 +7,7 @@ console.log(typeof num1);
 console.log(typeof num2);
 console.log(typeof '100');
 
-var result = num1==num2 ? "Equal" : "Not Equal";//javaScript is automatical covert data type
+var result = num1==num2 ? "Equal" : "Not Equal";//javaScript is automatical covert data type.== is only check value.
 console.log(`num1==num2==> ${result}`);
 
 var res = num1===num2 ? "Equal" : "Not Equal";//Strictly follow the rule Can't change datatype 
@@ -52,3 +52,18 @@ marriage(21);
 marriage(20.9);
 marriage(25);
 marriage(26);
+
+
+
+// If SSC marks greater than equal to 35 then pass or fail
+
+function sccMark(val) {
+  return (val>=100 || val<0)?"Invalid Data": val>=35? "Pass":"Fail"
+}
+
+console.log(sccMark(35));
+console.log(sccMark(120));
+console.log(sccMark(12));
+
+
+

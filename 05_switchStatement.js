@@ -145,3 +145,32 @@ switch (life) {
     console.log('Go And Sleep');
     break;
 }
+console.log(`--------------------------------------------------------------------------`);
+var int=6
+switch (int) {
+  case 1:
+    console.log("Vinayak");
+    break;
+    case 2:
+      console.log("Mahesh");
+    break;
+    case 3:
+    console.log("Ganesh");
+    break;
+    case 4:
+    console.log("Dipak");
+    break;
+    case 5:
+    console.log("Navaj");
+    break;
+    case 6:
+    console.log("Anjum");
+    break;
+    case 7:
+    console.log("Arman");
+    break;
+
+  default:
+    console.log("Every Things Fine");
+    break;
+}

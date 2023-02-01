@@ -37,7 +37,7 @@ function monthOfYear(monthNumber) {
         case 12:
           console.log(`December`);
           break;
-      
+
         default:
           console.log(`In valid Month`);
           break;
