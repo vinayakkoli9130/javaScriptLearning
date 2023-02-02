@@ -41,9 +41,7 @@ function monthOfYear(monthNumber) {
         default:
           console.log(`In valid Month`);
           break;
-      }
-      
-    
+      } 
 }
 monthOfYear(2);
 monthOfYear(5);

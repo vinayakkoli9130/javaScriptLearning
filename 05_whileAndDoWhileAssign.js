@@ -18,10 +18,11 @@ do {
     i=i+2;
 } while (i<=15);
 console.log(`printing 1 to 15 Even number`);
-var i=2
+var i=0
 while (i<=15) {
+    i=i+2;
 console.log(i);
-i=i+2;    
+    
 }
 
 console.log(`Printing Number Using Do While Loop`);
@@ -48,6 +49,7 @@ while (i<=15) {
     console.log(i);
     i=i+2
 }
+
 i=100
 do {
     console.log(i);
