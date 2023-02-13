@@ -30,7 +30,7 @@ this.founder=founder;
 
 }
 details(){
-    console.log(this.name,this.address,this.branches,this.founder);
+    console.log(this.name,this.address,this.branches,this.founder);//
 }
     
 }
@@ -55,7 +55,10 @@ college4.details();
              console.log(`${key} : ${element}`);
          }
      }
- }
+     
+     }
+   
+ 
  traverseObject(college);
   console.log(``);
   traverseObject(college1);

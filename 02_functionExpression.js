@@ -16,7 +16,7 @@ var result = substraction(45, 20);
 console.log(result);
 
 var square = function(num){
-console.log("Square of ",num*num*num);
+console.log("Square of -: ",num*num*num);
 let sum=num*num*num
 console.log(sum+sum);
 }

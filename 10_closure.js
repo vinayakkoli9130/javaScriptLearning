@@ -1,4 +1,7 @@
-//Closure -:A closure is an inner function that has access to the outer function and globle variable
+//Closure -:A closure is an inner function that has access to the outer function and globle variable.
+//It Has access to it own scoped variable
+//it has access to the outer function variable.
+//it has access to the globel variable.
 
 let globalVariable = 100;//globle variable
 function outer(){ 

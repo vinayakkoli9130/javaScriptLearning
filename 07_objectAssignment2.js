@@ -31,7 +31,7 @@ const yesBank={
 interestRate:5,
 }
 
-function showDetails(val) {
+function showDetails(val) {//object show in function.
 console.log(val);
   
 }

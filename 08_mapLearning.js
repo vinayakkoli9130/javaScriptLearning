@@ -1,3 +1,4 @@
+//Map Is Used To Store Collection Of Elements In Key-Value Pairs
 //Map-:map can add keys and values.it is override method.they can change value.//they don't allow same key
 //set-:set is used to add element in Map
 //get-:get is used to  initilize key value.

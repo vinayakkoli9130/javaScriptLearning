@@ -22,7 +22,7 @@ console.log(kotakBank);
 console.log(hdfcBank);
 console.log(punjabBank);
 console.log(`C) Create The Map In Such A Way That Key Should Be Bank Account Number And Value Is Object`);
-const details= new Map()
+const details= new Map()//
 details.set(37262738372,axisBank)
 details.set(262727717277,sbiBank)
 details.set(458474485748,icicBank)

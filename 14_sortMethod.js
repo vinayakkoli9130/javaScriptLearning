@@ -1,3 +1,5 @@
+//Sort Method-: used to sort elemets of an array.
+
 const arrayOfNames = ["Anuja", "Sonali", "Manoj", "Yogesh", "Bharat"];
 console.log("==== reverse() === ");
 arrayOfNames.reverse();
@@ -18,6 +20,7 @@ arrayOfNumbers.sort((a, b)=>{
    return a>b ? 1 : -1;
 });
 console.log(arrayOfNumbers);
+
 // Sort the array in descending order
 arrayOfNumbers.reverse();
 console.log(arrayOfNumbers);

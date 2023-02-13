@@ -66,7 +66,7 @@ console.log(`-------------------------------------------------------------------
 // program to find the factorial of a number
 
 // take input from the user
-const number =5;
+const number =-1;
 
 // checking if number is negative
 if (number < 0) {

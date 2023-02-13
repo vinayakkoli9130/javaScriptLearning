@@ -1,3 +1,6 @@
+//map() Method -:'Used To Transform The Value'.Allows to loop over array.access each value & returns the new array. 
+//map() method has three main arguments-:1)element.2)index.3)array
+
 console.log("=======map()=============");
 const arrayOfNumber = [0, 2, 3, 5, 6];
 // const arrayOf=arrayOfNumber.forEach((value)=>{

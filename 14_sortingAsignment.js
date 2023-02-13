@@ -14,9 +14,7 @@ console.log(`=================4)Find The Greater Element In Array===============
 console.log(arrayRollNumber);
 console.log(`Greatest Element In Given Array Is-799`);
 console.log(`================5)Find the Smallest Element In Array==============`);
-arrayRollNumber.sort((a,b)=>{
-    return a>b ? -1:1;
-})
+arrayRollNumber.sort((a,b)=>a > b ? -1 : 1)
 console.log(arrayRollNumber);
 console.log(`Smallest Element In Given Array Is-:11`);
 console.log(`=============6) Remove Duplicate Element In Given Array ===========`);

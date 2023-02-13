@@ -15,7 +15,7 @@ passOutYear:2020,
 console.log(`2nd Object`);
 console.log("Collge Detalils",personalDetails);
 console.log(`===============================Merge Two Objects=======================================================`);
-personalDetails=collegeDetails
+personalDetails=collegeDetails//Using Assignment (=) Operator
 console.log(personalDetails);
 console.log(`____________________________________________________________________________________________________________`);
 console.log(`Do Not Add New Value In Array Because Of We Are Using freeze() Method `);

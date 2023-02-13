@@ -1,3 +1,4 @@
+//arrow function can be store as value in one variable like function expression
 var show = ()=>{//arrow function can be store as value in one variable like function expression
     console.log("Hello");
 }
@@ -13,6 +14,7 @@ let show = ()=>{
 show();
 // => function Syntax
 // let fun = ()=>{
+
 
 // };
 

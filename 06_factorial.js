@@ -1,3 +1,4 @@
+console.log(`-----------------------:Factorials Example:-----------------------`);
 function fNumber(val) {
     var count=1
 for (let index = 1; index <=val; index++) {
@@ -11,7 +12,19 @@ fNumber(7);
 fNumber(8);
 fNumber(12);
 console.log(`------------------------------------------------------------------`);
+function fact(val) {
+  var count=1;
+for (let index = 1; index <= val; index++) {
+ 
+  count=index*count
+} 
+console.log(count);
 
+  }
+fact(3)
+fact(5)
+fact(19)
+console.log(`=========================================================================`);
 function sumCube(val){
   var counter=0;
 for (let index = 0; index <val.length; index++) {
@@ -25,8 +38,7 @@ sumCube(2);
 sumCube(3);
 sumCube(4);
 sumCube(5)
-
-
+console.log(`----------------------------------------------------------------------------------------------------------`);
 
 let num=1
 for (let index = 1; index <= 5; index++) {
@@ -34,7 +46,7 @@ for (let index = 1; index <= 5; index++) {
   num=num*index;
 }
 console.log(num);
-console.log(`==================================================================`);
+console.log(`============================Example======================================`);
 var fun=function(val) {
   let number=1
   let sum=0
@@ -50,11 +62,11 @@ fun(2)
 fun(3)
 fun(4)
 fun(5)
-console.log('=========================================================================');
+console.log('================================Literal Empty Object =========================================');
 const professor={
 
 }
-professor.name="stew",
+professor.name="stew",//additing Property ObjectName.propetyName
 professor.age=45,
 professor.gendar="male",
 professor.city="pune",
@@ -64,7 +76,7 @@ console.log(professor);
 
 console.log("2");
 console.log(`Accessing an nested degrees property`);
-professor.degrees={
+professor.degrees={//Create Neasted Property As Object In Object 
    Enginerring:"Computar enginering",
    PHD:"Adv computing" ,
    college:"COEP",
@@ -74,7 +86,7 @@ console.log(professor.degrees);
 console.log(3);
 console.log(`Accessing an nested certification proprty`);
 
-  professor.certificates={
+  professor.certificates={//Create Neasted Property As Object In Object
     1:"Hacker Rank",
     2:"certificate IN IFE",
     3:"Adv Programing",

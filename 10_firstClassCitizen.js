@@ -6,7 +6,7 @@ let functionExpr= function(){
 }
 functionExpr();
 
-// 2. We can return function from another function //function can be return another function
+// 2. We can return function from another function //2.function can be return another function
 function outer(){
    let display  = function(){
         console.log("Inside display function");

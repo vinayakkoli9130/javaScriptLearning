@@ -16,3 +16,17 @@ countCharA("I Am Learning JavaScript, The Language Of Internet");
 console.log(`-----------------------------------------------------------------------`);
 console.log(`2`);
 countCharA("My Favourite Movie Is LAggAn")
+
+function str(val) {
+  console.log(val);
+  count=0
+  for (let index = 0; index < val.length; index++) {
+  let aAlpha=val.charAt(index) 
+  if (aAlpha=='a') {
+    count=count+1
+    }
+  }
+
+  console.log(count);
+}
+str("Don't Warry Be Happy")

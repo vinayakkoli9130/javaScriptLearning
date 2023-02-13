@@ -1,3 +1,5 @@
+//forEach() used callback function you can perform some operation.
+//they can accecpt 3 parameters. value,index,array 
 const arrayNumbers= [10, 3, 4, 50, 6];
 arrayNumbers.forEach(function(currentValue, index, array){
  console.log(currentValue, index, array);
@@ -9,7 +11,7 @@ arrayNumbers.forEach(function(currentValue){
 arrayNumbers.forEach((currentValue)=>{//=>Arraw Function
     console.log(currentValue);
 });
-//for each used callback function you can perform some operation
+//for each used callback function you can perform some operation.
 arrayNumbers.forEach(currentValue=>console.log(currentValue));
 
 // console.log("======== Find even numbers==========");

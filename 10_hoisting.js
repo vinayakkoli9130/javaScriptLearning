@@ -8,7 +8,7 @@ var city = "Pune";
 
 let state = "MH";//let can't allow hosthing
 console.log(state);
-
+//hosting can perform only normal function
 show();//you can call function Before declaration.
 
 function show(){//only allowed hoisting normal function not allowed function expression 

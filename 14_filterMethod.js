@@ -1,3 +1,5 @@
+//filter() method-: return new array with all elements that satisfies the condition that is passeed inside the filter method;
+//The array elements that does not satisfy the condition inside filter () are skiped
 const arrayOfNum = [0, 20, 3, 5, 6, 10];
  const arrayFilter =arrayOfNum.filter( (currentValue, index)=> {
     return currentValue > 5; // 0

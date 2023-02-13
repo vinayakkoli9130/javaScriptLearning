@@ -1,5 +1,5 @@
 //function-:A Block of Code Designed To Perform Particular Task Is Called Function.
-//block-:peice of code written inside curly braces.
+//block-:piece of code written inside curly({ }) braces.
 function display( ) {//Function with not parameter/Argument and return type.
   console.log("My name: Mohit");
   console.log("My sir name is: Sharma");

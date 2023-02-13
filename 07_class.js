@@ -1,8 +1,8 @@
 //class is blueprint of an object
 //instanceOf is used to check given object is available or Not in class
-class Employee{
+class Employee{//2) Object Class
     constructor(name, id, age, city){//constructor is used to initilise object
-        this.name = name;//this keyword or variable is used to point current object.
+        this.name = name;//this keyword  is used to point current object.
         this.id = id;
         this.age = age;
         this.city = city;

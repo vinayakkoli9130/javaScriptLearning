@@ -1,6 +1,6 @@
 //object is instance of class/object is intity they can have data member and member function.
 //delete keyword are used to delete property.
-const person = {
+const person = {//Object Literals
   height: 6,
   weight: 70,
   age: 23,
@@ -76,7 +76,7 @@ student.marks.english = 97;
 console.log(`Adding an Nested object property`);
 student.marks.programming = 100;
 
-console.log(`Deleting an Nested object property`);
+console.log(`Deleting an Nested object property`);//using delete keyword we can delete key value
 // delete student.marks.english;
 
 console.log(`Accessing an Nested object function`);
@@ -95,7 +95,7 @@ const billgates = {
    company: "Microsoft",
    valuation: "130B $"
 }
-console.log(`========== in operator ================`);//in operator used to check property is available or not string
+console.log(`========== in operator ================`);//in operator used to check property/key is available or not string
  let isAvailable = "height" in billgates;
  
  if (isAvailable) {
@@ -108,7 +108,11 @@ console.log(`========== in operator ================`);//in operator used to che
 
 
 // console.log(Object.entries(billgates));
-// console.log(Object.keys(billgates));
-// console.log(Object.values(billgates));
+console.log("Keys-:",Object.keys(billgates));
+console.log("Value-:",Object.values(billgates));
 
 
+// for (const key in student) {
+ 
+//     console.log(key,values);
+//   }

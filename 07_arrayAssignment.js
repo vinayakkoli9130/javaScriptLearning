@@ -5,7 +5,7 @@ console.log(`Size Of Array Index-->${array.length-1}`);
 console.log(`5th Position Of Index -->${array[5]}`);//Which Value Of index 5
 console.log(`1st Possition Of Index-->${array[1]}`);//Which Value Of index 1
 console.log(`0th Possition Of Index-->${array[0]}`);//Which Value Of index 0
-console.log(`Change 2nd Possition With 34 Number-->${array[2]=34}`);//Replace Values
+console.log(`Change 2nd Possition With 34 Number-->${array[2]=34}`);//Replace Values index 2
 array[2]=34;
 console.log(`After Changing The 2nd Possition Value Array-->${array}`);
 console.log(`Index  Number Of 67--->${array.indexOf(67)}`);//Index Number Of 67
