@@ -64,7 +64,7 @@ count=count+1
 }
 console.log(count);
 console.log();
-countCharA("I An Learning JavaScript,The Language Of internet")
+countCharA("I Am Learning JavaScript,The Language Of internet")
 countCharA("My Favourite movie is LAggAn")
 console.log(`----------------------------------------------------------------------------------`);
 
@@ -110,19 +110,168 @@ oddPositionChars("Hard Work Always Pays Back")
 oddPositionChars("Soon I will be Angular IT Champ")
 console.log(`------------------------------------------------------------------------`);
 
+var arrays=[2,4,1,9,6,7,3,5]
 
+for (const key in arrays) {
+  if (Object.hasOwnProperty.call(arrays, key)) {
+    const element = arrays[key];
+    console.log(element);
+  }
+  
+}
+console.log(`------------------------------------------------------------------------`);
+for (let index = 1; index < 100; index++) {
+ if (arrays.indexOf(index)==-1) {
+  console.log(index);
+ }
+  
+}
+console.log(`------------------------------------------------------------------------`);
+(function(){
+  var a = b = 3;
+})();
 
+console.log("a defined? " + (typeof a !== 'undefined'));
+console.log("b defined? " + (typeof b !== 'undefined'));
+console.log('---------------------------------------------------------------------------');
 
+function isPalindrome(str) {
+  str = str.replace(/\W/g, '').toLowerCase();
+  return (str == str.split('').reverse().join(''));
+}
+console.log(isPalindrome("level"));                   // logs 'true'
+console.log(isPalindrome("levels"));                  // logs 'false'
+console.log(isPalindrome("A car, a man, a maraca"));  // logs 'true'
+console.log(isPalindrome("nayan"));
+console.log('--------------------------------------------------------------------------');
 
+// var word="Nayan"
+// var reverce=word.toLocaleLowerCase().split('').reverse().join('')
+function palindrome(string) {
+  string=string.toLocaleLowerCase()
+  // console.log(result);
+  if (string==string.split('').reverse().join('')) {
+    console.log('true');
+  }else{
+    console.log('false');
+  }
+}
+palindrome("Nayan")
+palindrome('jayas')
+console.log('-----------------------------------------------------------------------');
+// function string(val) {
+//   for (let index = 0; index < val.length; index++) {
+// var vovels=val.charAt(index).toLocaleLowerCase()
+//     if (vovels=='a'||vovels=='e'||vovels=='i'||vovels=='o'||vovels=='u') {
+//      console.log(vovels); 
+//     }
 
+//   }
+// }
+// string('jay shree ram')
 
+sen="jay shree ram"
+co=0
+for (let index = 0; index < sen.length; index++) {
+  
+  var vovels=sen.charAt(index).toLocaleLowerCase()
+      if (vovels=='a'||vovels=='e'||vovels=='i'||vovels=='o'||vovels=='u') {
+        console.log(vovels);
+co=co+1
 
+      }
+  
+    }
+    console.log(co);
+console.log('===============================================================================');
+console.log('----------------Even Number Index Characters----------------');
+var word='JAY JAWAN JAY JISAN'
+for (let index = 0; index < word.length; index++) {
+  if (index%2==0) {
+    console.log(word.charAt(index));
+  }
+  
+}
+console.log('----------Odd Number Index Characters----------------');
+var word='JAY JAWAN JAY JISAN'
+for (let index = 0; index < word.length; index++) {
+  if (index%2==1) {
+    console.log(word.charAt(index));
+  }
+  
+}
+console.log('--------Characters Index----------------');
+words=''
 
+if (word%2==0) {
+console.log(word);
+}
+ console.log("------------------------------------------------------------------------------"); 
+var cost =123.456
+console.log(cost.toFixed(2));
 
+console.log("-------------------------------------------------------------------------------------");
 
+console.log('-------------:Missing Value 1 To 100:----------------');
+const values=[32,56,12,76,4,46,91,23,33,87]
+var missingValue=new Array()
+for (let index = 1; index <=100; index++) {
+  // const element = array[index];
+  if (values.indexOf(index)==-1) {
+    missingValue.push(index)
+  }
+  
+}
+console.log(missingValue);
 
+console.log('-------------:Find  Out Even And Odd Number :----------------');
 
+for (let index = 0; index < values.length; index++) {
+  const element = values[index];
+  if (element%2==0) {
+  
+    console.log("Even Number In Array-:",element);
+  }
+  
+}
+for (let index = 0; index < values.length; index++) {
+  const element = values[index];
+  if (element%2==1) {
+    console.log("Odd Number In Array-:",element);
+  }
+}
+console.log('-------------:Find  Out Even  Index Element :----------------');
+var counters=0
+for (let index = 0; index < values.length; index++) {
+  const element = values[index];
+  if (index%2==0) {
+    
+console.log(`${counters=counters} Even Index Element Is-: ${element}`);
 
+  }
+}
+console.log('-------------:Find  Out  Odd Index Element :----------------');
+for (let index = 0; index < values.length; index++) {
+  const element = values[index];
+  if (index%2==1) {
+    console.log(element);
+  }
+  
+}
+console.log('-------------:Addition Of All Element Of Array :----------------');
+var addAllElement=values.reduce((a,b)=>a+b)
+console.log(addAllElement);
+
+console.log('-------------:Add Only Greater Than 20 Element Of Array In New Array :----------------');
+var largerValue=values.filter((price)=>price>20)
+console.log(largerValue);
+console.log('-------------:Sort Array In Ascending Order :----------------');
+
+var ascending=values.sort((a,b)=>a-b)
+console.log(ascending);
+console.log('-------------:Sort Array In Descending Order :----------------');
+var descending=values.sort((a,b)=>b-a)
+console.log(descending);
 
 
 

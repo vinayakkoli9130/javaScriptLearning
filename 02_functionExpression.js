@@ -20,7 +20,7 @@ console.log("Square of -: ",num*num*num);
 let sum=num*num*num
 console.log(sum+sum);
 }
-console.log( typeof square);
+console.log("Type Of Function", typeof square);
 square(5);
 square(100);
 square(34);

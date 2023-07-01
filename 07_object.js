@@ -97,7 +97,7 @@ const billgates = {
 }
 console.log(`========== in operator ================`);//in operator used to check property/key is available or not string
  let isAvailable = "height" in billgates;
- 
+ console.log(isAvailable);
  if (isAvailable) {
     delete billgates.height;
     console.log(`"height" property is deleted successfully`);

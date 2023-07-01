@@ -6,8 +6,10 @@ let promiseToShareNotes = new Promise(function(success, reject){
         reject("Sorry guys, I didn't get time today..");
     }
 });
+
 promiseToShareNotes.then(function success(fulfilled){
     console.log(fulfilled);
+    
 }).catch(function reject(failurede){
     console.log("Sir why have not shared notes.. ");
     console.log(failurede);

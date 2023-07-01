@@ -5,7 +5,7 @@
 
 //Arithmatic Operator-:Addition(+),Substraction(-),Multiplication(*),Division(/),Module(%)
 //Unary Operators-:Increament Operator(++),Decreament Operator(--).Increment or Decrement one value
-//Assignment Operators-:compound Module(%=),Compound Addition(+=),Compound Substraction(-=)
+//Assignment Operators-:Assignment(=),compound Module(%=),Compound Addition(+=),Compound Substraction(-=)
 //Comparison Operators-:grater than(>),less than(<),greater than equal to(>=),less than equal to(<=)
 //Logical Operator-:and(&&),or(||),NOT(!)
 console.log(`============ Arithmetic Operators =================`);

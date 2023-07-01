@@ -7,7 +7,7 @@ number(10,-10);
 number(800,899);
 console.log(`=======================================================================`);
 var evenOrOdd=function (val) {
-var number= val%2 ? "Odd" : "Even"
+var number= val%2==0 ? "Odd" : "Even"
     console.log(`Givan Number ${val} Is-:${number}`);
 }
 evenOrOdd(29);
@@ -18,7 +18,7 @@ console.log(`===================================================================
 
 var lengthOFWord=function(val) {
     var len=val.length;
-    var word=len%2 ? "odd" : "Even";
+    var word=len%2==0 ? "odd" : "Even";
    
     console.log(`Given Word ${val} is-:${word}`);
 }
@@ -38,3 +38,11 @@ function upperCas(val) {
 }
 console.log(upperCas("   vinayak      "));
 
+const information=function (val) {
+
+// const info=(val>=18 && val<=100)?"Invalid Data":val>=45? "Pass":"Fail"
+const info=(val<=18 && val>=100)?"Invalid Data":val>=25?"Your EliGible For Marrage":"Your Not ELEGIBLE FOR MARRAGE"
+   console.log(info); 
+}
+information(20)
+information(26)

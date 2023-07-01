@@ -27,7 +27,7 @@ for (let table = 5; table <=50; table=table + 5 ) {
         console.log(table);
         }
         console.log(`---------------------------------------------------------------------`);
-        for (var i = 0; i <=15; i+2) {
+        for (var i = 0; i <=15; i=i+2) {
 
              if (i % 2== 0 ) {
                 console.log(i);
@@ -36,7 +36,7 @@ for (let table = 5; table <=50; table=table + 5 ) {
                 
             }
             console.log(`---------------------------------------------------------------------`);
-            for (var i = 0; i <=15; i+2) {
+            for (var i = 0; i <=15; i=i+2) {
                 if (i%2==1) {
                     console.log(i); 
                     // break;

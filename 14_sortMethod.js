@@ -1,9 +1,12 @@
 //Sort Method-: used to sort elemets of an array.
 
 const arrayOfNames = ["Anuja", "Sonali", "Manoj", "Yogesh", "Bharat"];
+console.log("Given Array-:",arrayOfNames);
 console.log("==== reverse() === ");
 arrayOfNames.reverse();
+
 console.log(arrayOfNames);
+
 console.log("==== sort() in ascending order === ");
 arrayOfNames.sort();
 console.log(arrayOfNames);
@@ -16,11 +19,24 @@ const arrayOfNumbers = [23, 111, 5, 99, 32];
 console.log("==== sort() array of numbers=== ");
 // arrayOfNumbers.sort();
 console.log(arrayOfNumbers);
+
 arrayOfNumbers.sort((a, b)=>{
    return a>b ? 1 : -1;
 });
 console.log(arrayOfNumbers);
 
+console.log("===========Practice of sort method=====================");
+
+arrays=[353,43,4332,45,5,66,5,43,445,9,76]
+
+console.log("Given Array -:",arrays);
+
+arrays.sort((a,b)=>{
+return a>b?-1:1
+
+
+})
+console.log(arrays);
 // Sort the array in descending order
 arrayOfNumbers.reverse();
 console.log(arrayOfNumbers);
@@ -62,7 +78,9 @@ console.log(value.model,value.drive);
 })
 
  console.log(`===============================================================================================`);
+
 const stringOfArray=["orange","Banana","Pinapple","Apple","Strobarry","Mango",]
+
 console.log(stringOfArray);
 
 stringOfArray.forEach(element => {
@@ -95,7 +113,7 @@ console.log(duplicate);
 duplicate.forEach(element=>console.log(`${element}`))
 
 console.log(`-------------------------------------------------------------------------`);
-const arraysOfValue=[626,34,24,5,2,,34,565,43,,2,67,543,34,56,7,7654,]
+const arraysOfValue=[626,34,24,5,2,,34,565,43,,2,67,543,34,56,7,7654]
 let year=arraysOfValue.sort((a,b)=>{
 return a>b?1:-1
 })

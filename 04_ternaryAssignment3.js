@@ -17,6 +17,13 @@ const interviewEle=function (gradScore,hscScore,sscMarks,candidateName) {
 console.log(interviewEle(72,81,91,"Vinayak"));
 console.log(interviewEle(72,81,87,"Mahesh"));
 
+let passOrFail=(10>23||23>10)?"true":"false"
+console.log(passOrFail);
 
 
-
+function passOrFails(val1,val2) {
+   if (val1%2==0 && val2%2==0) {
+    console.log("Given Numbers Are perfect");
+  }
+}
+console.log();

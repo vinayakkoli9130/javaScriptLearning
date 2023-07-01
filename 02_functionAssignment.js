@@ -42,3 +42,11 @@ console.log(add);
 let sun=addThreeValue("Hello","Good","Morning");
 console.log(sun);
 
+function squre(val) {
+  return add= val*val  
+  
+}
+
+console.log(squre(5));
+console.log(squre(2433));
+console.log(squre(43));

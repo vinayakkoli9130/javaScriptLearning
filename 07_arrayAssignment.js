@@ -103,6 +103,7 @@ arrayOfNum.length=4
 console.log(arrayOfNum);
 console.log(arrayOfNum.length);
 console.log(`=================================================`);
+
 let myArray1=[14,62,47,83,35,52]
-  let array2= myArray1.splice(1,0,11);
-  console.log(array2)
+   myArray1.splice(1,0,11);
+  console.log(myArray1)

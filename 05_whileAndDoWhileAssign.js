@@ -4,6 +4,13 @@ while (number<=15) {
     console.log(number);
     number=number+1;
 }
+
+
+var num=1;
+while (num<=10) {
+    console.log(num);
+    num=num+1;
+}
 console.log(`Printing Number Using Do While Loop`);
 var num=50;
 do {

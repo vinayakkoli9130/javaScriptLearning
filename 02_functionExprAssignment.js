@@ -46,8 +46,16 @@ string("JS the most popular language");
 
 
 
-const addition=function (val1,val2) {
-    console.log(val1+val2);
-}
+const addition=(val1,val2) => 
+    console.log(`${val1+val2}`);
+
 addition(12,12)
 addition("Vinayak","Koli")
+
+var mul=(val,val2)=>console.log(val+val2);
+mul(2,3)
+
+ setTimeout((val=8)=>{
+    console.log(val+val);
+},3000)
+

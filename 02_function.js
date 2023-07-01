@@ -1,5 +1,7 @@
 //function-:A Block of Code Designed To Perform Particular Task Is Called Function.
+
 //block-:piece of code written inside curly({ }) braces.
+
 function display( ) {//Function with not parameter/Argument and return type.
   console.log("My name: Mohit");
   console.log("My sir name is: Sharma");
@@ -79,7 +81,7 @@ console.log(workTime);
  
 
  function add(val1, val2){
-    console.log(val1 + val2);
+    console.log("Addition",val1 + val2);
  }
  add(10, 20);
 
@@ -162,3 +164,20 @@ swaping("Vinayak","Arman","Samarth")
 // console.warn("Silent Study Is Success ");
 // console.error("Mobile Using Is Good But Every TiMe We Using It IS Not Good")
 // // console.clear()
+
+swaps("Vinayak","Somning","Koli")
+
+function swaps(val1,val2,val3) {
+  var num=val1
+  val1=val2
+  val2=val3;
+  val3=num;
+  console.log(val1,val2,val3);
+}
+
+function swapping(a,b) {
+  return a+b
+}
+var add=swapping(4,5)
+console.log(add);
+// console.log(swapping(4,5));

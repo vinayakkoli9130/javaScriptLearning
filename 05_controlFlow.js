@@ -46,3 +46,16 @@ for (let index = 0; index < str.length; index++) {
 
 }
 console.log("Total Number Of vowel in Given String",count);
+
+var sentence ="Jaat Ki Kuata kaika"
+var counters=0
+for (let index = 0; index < sentence.length; index++) {
+ var char=sentence.charAt(index)
+ let lower=char.toLocaleLowerCase()
+ if (lower=='a' ||lower=='e' ||lower=='i' ||lower=='o' ||lower=='u' ) {
+  console.log(lower);
+  counters=counters+1
+ }
+ console.log(counters);
+  
+}

@@ -17,6 +17,7 @@ console.log(second);
 console.log(third);
 console.log(four);
 console.log(five);
+
 //class Convert in array
 let array=[first,second,third,four,five]
 for (const iterator of array) {//traverce array using for of loop

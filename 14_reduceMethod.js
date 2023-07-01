@@ -38,4 +38,4 @@ return currentValue + value
 console.log("Sum Of All Even Number-:",sum);
 
 const sumOfOddNumber=arrayOf.filter(value=>value%2==1).reduce((currentValue,index)=>currentValue + index)
-console.log("Sum Of All Even Number-:",sumOfOddNumber);
+console.log("Sum Of All Odd Number-:",sumOfOddNumber);

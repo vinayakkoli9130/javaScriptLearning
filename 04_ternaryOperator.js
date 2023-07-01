@@ -1,4 +1,5 @@
 //==-: javaScript is automatical convert one data type to another data type as per need
+
 //===-:javaScript Strictly follow the rule Can't change datatype.
 
 var num1 = 10;
@@ -58,9 +59,9 @@ marriage(26);
 // If SSC marks greater than equal to 35 then pass or fail
 
 function sccMark(val) {
-  return (val>=100 || val<0)?"Invalid Data": val>=35? "Pass":"Fail"
+  return (val>=100 || val<0)?"Invalid Data":val>=35? "Pass":"Fail"
+ 
 }
-
 console.log(sccMark(35));
 console.log(sccMark(120));
 console.log(sccMark(12));

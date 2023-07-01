@@ -17,6 +17,10 @@ console.log("Collge Detalils",personalDetails);
 console.log(`===============================Merge Two Objects=======================================================`);
 personalDetails=collegeDetails//Using Assignment (=) Operator
 console.log(personalDetails);
+
+let assign=Object.assign({},personalDetails,collegeDetails)//Using Object.assign({},First Object name, Second Object name) 
+console.log(assign);
+
 console.log(`____________________________________________________________________________________________________________`);
 console.log(`Do Not Add New Value In Array Because Of We Are Using freeze() Method `);
 let array=["Arman","Ganesh","Salman","jay","Dipak"];

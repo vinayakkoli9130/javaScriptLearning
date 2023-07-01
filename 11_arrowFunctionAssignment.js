@@ -22,3 +22,9 @@ console.log(`a)Addition of given Value-->${addResult}`);
 let string=show("I Am","Learning","ES6","Features","In Depth")
 console.log(`b)Additon Of Given Value-->${string}`);
 
+const arrowFunction=(val1,val2)=>{
+return(val1+val2);
+}
+
+console.log(arrowFunction(20,20));
+

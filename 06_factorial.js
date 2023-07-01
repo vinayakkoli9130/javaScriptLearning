@@ -5,7 +5,7 @@ for (let index = 1; index <=val; index++) {
  
     count=index*count;
 }
-  console.log(`Factorial Given Number${val}-:   ${count}`);  
+  console.log(`Factorial Given Number-${val}-:   ${count}`);  
 }
 fNumber(5);
 fNumber(7);

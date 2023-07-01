@@ -20,3 +20,5 @@ console.log("-------------------------------------------------------------------
 var  totalCount=107;
 console.log(totalCount);
 console.log(typeof totalCount);
+
+console.log(typeof (true));

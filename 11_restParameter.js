@@ -2,7 +2,7 @@
 //rest means remaining//rest parameter is used to store remaining value if argument in one parameter
 //they defined as last parameter
 function show(name, age, ...details){
-    console.log(name,age, details);
+    console.log(name,age,details);
     }
     show("Sachin", 45, "Mumbai", 101);
 
@@ -24,3 +24,8 @@ console.log("Self Invoking Function or IIFE - Immediately Invoked Function Expre
 (function display(val1,val2) {
     console.log(val1+val2);
 })(12,12)
+
+
+// (function show(){
+//     console.log("Jay Shree Ram");
+// })()

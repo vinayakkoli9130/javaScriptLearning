@@ -1,5 +1,6 @@
 const arrayNums=[20,3,4,56,90,400,49]
 console.log(`Given Array--->${arrayNums}`);
+
 let arrayNumber=arrayNums;
 console.log(arrayNumber.push(55,66));
 console.log(`===1)Perform Shallow Clone On Array====`);
@@ -44,6 +45,7 @@ console.log(`===================================================================
  console.log("Country--:",employee_info.address.country);
  console.log(`John Doe Moblie Numbers--:${employee_info.mobiles}`);
 
+ //By Using JSON.parse and JSon.stringify we can perform deep cloning and also access nested object
  let month = JSON.parse(JSON.stringify(employee_info));//Deep cloning
  console.log("Before Update July Month salary---> ",month.salary);
  console.log("After Update July Month salary--->",month.salary.july_month="80k");

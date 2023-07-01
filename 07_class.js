@@ -24,4 +24,29 @@ console.log(key,element);
 // console.log(isInstance);
 // Object is an instance of class
 
+for(const key in empJay){
+    if(Object.hasOwnProperty.call(empJay,key)){
+        const element=empJay[key]
+        console.log(element);
+    }
+}
+for(const key in empSmith){
+    if(Object.hasOwnProperty.bind(empSmith,key)){
+        const element=empSmith[key]
+        console.log(key,element);
+    }
+}
+//all class objects travales using function and for in loop
+function traverseObjects(objects) {
+  for(const key in objects){
+    if(Object.hasOwnProperty.bind(objects,key)){
+        const element =objects[key]
+        console.log(element);
+    }
+  }  
+}
+traverseObjects(empJay)
+traverseObjects(empBill)
+traverseObjects(empSmith)
+
 

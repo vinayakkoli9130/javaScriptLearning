@@ -7,9 +7,12 @@ console.log("Given string is ", firstName);
 
 console.log("Total character in the string is: ", firstName.length);//length of string
 
+
 console.log("Char at index 3: ", firstName.charAt(3));//character of index 3
 
+
 var lengthTotal = firstName.length;
+
 
 console.log("Char at last index : ", firstName.charAt(lengthTotal-1));//last character of string.
 console.log("========================================================================================================")
@@ -38,13 +41,13 @@ console.log(`===================================================================
  var greet = "Good Morning";
  var indexof = greet.indexOf("M");//find the index of element "M" In Given String.
  console.log("Index of character M: ", indexof);
-var indexOfNin = greet.indexOf("nin");//index of given substring they can show only first char index
+var indexOfNin = greet.indexOf("nin");//index of given substring they can show only starting first char index
 console.log("Index of substring nin: ", indexOfNin);
 console.log("slice with negative start index: ", greet.slice(-7));//slice meanse bite of strings
 console.log("slice with negative start and end index: ", greet.slice(-7, -2));
 console.log(`===============================================================================================`);
 var studList = "Dips|Jenny|Ganni|Manni|Shani";
-var studListSplit = studList.split("|");//split meanse adding or removing some character//sepreate words add create new array.
+var studListSplit = studList.split("|");//sepreate words add create new array.//split meanse adding or removing some character
 console.log(" Student list after split by char ,", studListSplit);
 console.log("Total number students: ", studListSplit.length);
 console.log(`=================================================================================================`);
@@ -86,4 +89,11 @@ console.log(`First name is: ${firstName} and last name is ${lastName}`);
          console.log(`${bite.toLowerCase("H")}`);//toLowerCase()Method Is Used To Given Character Is small case or Upper case
          
     
+var name="Vinayak"
+var fName="Arman"
+let conc=name+" "+fName
+console.log(conc);
+console.log(name.concat(" ","Ganesh"," ",fName));
 
+var string="Jay Shree Ram"
+console.log(string.split(" ").length);

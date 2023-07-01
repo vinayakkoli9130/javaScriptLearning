@@ -26,6 +26,17 @@ for (let index = 0; index < arrayNumbers.length; index++) {
   }
 }
 console.log(evenNumArray);
+console.log("---------------ODD NUMBERS_________________--------");
+let odd =[]
+for (let index = 0; index < arrayNumbers.length; index++) {
+  const element = arrayNumbers[index];
+  if (element%2==1) {
+    odd=odd.concat(element)
+  
+  }
+  
+}
+console.log(odd);
 // console.log(``);
 
 console.log(`5) Odd Numbers In Given Array`);

@@ -8,7 +8,7 @@ console.log(`======Deep Clone always performed on primitive data type=====`);
   yourName = "Jenifer";
  console.log(myName);
  console.log(yourName);
-          //when a refernce variable is copid into  new refernce variable using assignment operator(=) a shallow copy of the reference object is creatd
+          //when a refernce variable is copid into  new refernce variable using assignment operator(=) a shallow copy of the reference object is created
  console.log(`========================Shallow Cloning=================================`);
  let vinny = {
      age: 23,
@@ -35,7 +35,7 @@ let empSumit = {
 // console.log(empSumit);
 // console.log({... empSumit});
 //
-let empMohit = {...empSumit}; // Deep Cloning using spread operator (... ) //when we use sprade operator then 
+let empMohit = {...empSumit}; // Deep Cloning using spread operator (...) //when we use sprade operator then 
 empMohit.empName = "Mohit";
 console.log(empMohit);
 console.log(empSumit);
@@ -64,3 +64,14 @@ console.log(empBill.marks);
 empBill.marks.math=97
 console.log(empBill.marks);
 
+let emloyee={
+    name:"Vinayak",
+    lastName:"Koli"
+}
+let employee1=Object.assign({},emloyee)
+
+console.log(emloyee);
+console.log(employee1.name
+    ="Mahesh");
+    console.log(employee1);
+    console.log(emloyee);

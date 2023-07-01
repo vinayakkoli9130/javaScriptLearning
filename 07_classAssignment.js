@@ -1,6 +1,6 @@
 console.log(`1)`);
 class Vehicle{
-constructor(vehicleName,engine,color,price,average,){
+constructor( vehicleName,engine,color,price,average,){
 this.vehicleName=vehicleName;
 this.engine=engine;
 this.color=color;
@@ -21,6 +21,7 @@ console.log(vehicle4);
 console.log(vehicle5);
 console.log(`============================================================================`);
 console.log(`2)`);
+
 class College{
 constructor(name,address,branches,founder){
 this.name=name;
