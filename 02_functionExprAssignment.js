@@ -59,3 +59,8 @@ mul(2,3)
     console.log(val+val);
 },3000)
 
+setTimeout(() => {
+  console.log("Hello World");
+  
+  
+},5000);

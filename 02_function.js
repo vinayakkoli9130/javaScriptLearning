@@ -2,7 +2,14 @@
 
 //block-:piece of code written inside curly({ }) braces.
 
-function display( ) {//Function with not parameter/Argument and return type.
+// function msg(){
+//   return console.log("Jay siyaram");
+// }
+// let message=msg()
+// console.log(msg());
+// console.log(message);
+
+function display() {//Function with not parameter/Argument and return type.
   console.log("My name: Mohit");
   console.log("My sir name is: Sharma");
   
@@ -107,7 +114,7 @@ console.log("before substraction", val1, val2);
  console.log(`++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++`);
  //Function not with Argument and return type.
  function song() {
-  console.log("Don't Brake My Heart");
+  console.log("Don't Break My Heart");
  }
  song()//function call or invocation
  console.log(`++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++`);

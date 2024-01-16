@@ -76,9 +76,31 @@ function isEvenOrOdd(num) {
 isEvenOrOdd(20);
 isEvenOrOdd(11);
 isEvenOrOdd("30");
+console.log("-------------------------------------------------------------------------");
+let isMarried=true
+if(isMarried){
+console.log("Congratulation");
+}
+else{
+  console.log("married As soon As Possible");
+}
+console.log("---------------------------------------------------------------------------");
+// Write a Function expression with one arg—> age to check whether he or she is eligible for voting or not, Then accordingly display message.
+// Ex. 45, 17, 8, 20, -10, 200, 0
 
-
-
+let votingEligibilitys=(age)=>{
+if(age<=0||age>=150){
+console.log("Invalid Age");
+}else if(age>=18 && age<=150){
+console.log("You Are Eligible For Voting");
+}else{
+  console.log("You Are Not Eligible For Voting");
+}
+}
+votingEligibilitys(17)
+votingEligibilitys(18)
+votingEligibilitys(-54)
+votingEligibilitys(151)
 
 
 

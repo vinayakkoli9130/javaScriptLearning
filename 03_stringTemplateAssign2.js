@@ -6,7 +6,7 @@ var stringHandsOn=function () {
          var word=string.trim();
          var count=string.length - word.length;
          console.log(`4)Total number Of Remove Spaces-:${count}`);
-         console.log(`5)First Character On String-: ${word.charAt(0)} Last Character On String-: ${word.charAt(33)} `);
+         console.log(`5)First Character On String-: ${word.charAt(0)} Last Character On String-: ${word.charAt(word.length-1)} `);
        var cdn=word.split(" ")
          console.log(`6)Total Numbers Of Word in String-:${cdn.length}`);
 

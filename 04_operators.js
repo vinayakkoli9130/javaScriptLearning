@@ -5,9 +5,9 @@
 
 //Arithmatic Operator-:Addition(+),Substraction(-),Multiplication(*),Division(/),Module(%)
 //Unary Operators-:Increament Operator(++),Decreament Operator(--).Increment or Decrement one value
-//Assignment Operators-:Assignment(=),compound Module(%=),Compound Addition(+=),Compound Substraction(-=)
+//Assignment Operators-:Assignment(=),compound Module(%=),Compound Addition(+=),Compound Substraction(-=),Compound Multipliaction(-=),Compound Division(/=)
 //Comparison Operators-:grater than(>),less than(<),greater than equal to(>=),less than equal to(<=)
-//Logical Operator-:and(&&),or(||),NOT(!)
+//Logical Operator-:AND(&&),or(||),NOT(!)
 console.log(`============ Arithmetic Operators =================`);
 var num1=10;
 var num2=5;

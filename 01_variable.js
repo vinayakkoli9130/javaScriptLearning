@@ -35,7 +35,7 @@ console.log(city, typeof city);
 
 var isMarried = false;
 console.log(isMarried, typeof isMarried);
-// Soecial Data type or trival data type
+// Special Data type or trival data type
 console.log("==== Learning undefined====");
 var country;//variable Is declared but the value is Not Assigned,then the value of that variable will be "undefined"
 console.log(country);
@@ -53,8 +53,8 @@ console.log(typeof 45); var weight=45;
 console.log(typeof "Billgates"); 
 console.log(typeof false); var areYouMad = false;
 console.log("============null================");
-var std= " ";//null dataType is object.null is special value that represent an empty value
-console.log(std);
+var std//null dataType is object.null is special value that represent an empty value
+console.log(typeof (std));
 
 console.log(" Strongly typed vs loosely typed  ");
 // String microsoftOwner = "Billgates"; // Java
@@ -72,7 +72,7 @@ console.log(god);
 
 console.log(typeof god);
 
-var msd=07;
+var msd=7;
 
 console.log(msd,typeof msd);
  

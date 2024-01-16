@@ -4,22 +4,22 @@
 
 var num1 = 10;
 var num2 = "10";
-console.log(typeof num1);
-console.log(typeof num2);
-console.log(typeof '100');
+console.log(typeof num1);//number
+console.log(typeof num2);//string
+console.log(typeof '100');//string
 
 var result = num1==num2 ? "Equal" : "Not Equal";//javaScript is automatical covert data type.== is only check value.
-console.log(`num1==num2==> ${result}`);
+console.log(`num1==num2==> ${result}`);//Equal
 
 var res = num1===num2 ? "Equal" : "Not Equal";//Strictly follow the rule Can't change datatype 
-console.log(`num1===num2==> ${res}`);
+console.log(`num1===num2==> ${res}`);//Not Equal
 
 // If SSC marks greater than equal to 35 then pass or fail
 
 var sscMarks = 39;
 var resultPassOrFail= sscMarks>=35 ? "Pass"  : "Fail";
 
- console.log(`Result is ${resultPassOrFail}`);
+ console.log(`Result is ${resultPassOrFail}`);//pass
 
  var sscResult = function(sscMarks){ 
     // var resultPassOrFail= (sscMarks>=35 && !(sscMarks>100)) ? "Pass"  : "Fail";
@@ -66,5 +66,18 @@ console.log(sccMark(35));
 console.log(sccMark(120));
 console.log(sccMark(12));
 
+//1)marks<0 or mark>100=invalid Information.2)mark>=35:pass,3)mark<35:fail
 
+let student=(mark)=>{
+var markss=(mark<0 || mark>100)?"Invalid Mark"
+:(mark>=35?"PASS":"FAIL")
+return markss
+}
+console.log(student(0));
+console.log(student(-1));
+console.log(student(35));
+console.log(student(120));
+console.log(student(24));
+console.log(student(undefined));
+console.log(student("ten"));
 

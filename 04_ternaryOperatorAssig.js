@@ -46,3 +46,18 @@ const info=(val<=18 && val>=100)?"Invalid Data":val>=25?"Your EliGible For Marra
 }
 information(20)
 information(26)
+console.log("---------------------------------------------------------------------------------------------------");
+console.log("Odd Or Even Number");
+let oddEvens=(num)=>{
+return num%2==0?"Even Number":"Odd Number"
+}
+console.log(oddEvens(20));
+console.log(oddEvens(21));
+console.log("Greater than or less than");
+let lessGreater=(val1,val2)=>{
+return val1==val2?"Val1 IS Equl To Val2": val1>val2?"Val1 is Greater Than Val2":"Val2 is Greater Than Val1"
+}
+console.log(lessGreater(12,11));
+console.log(lessGreater(11,12));
+console.log(lessGreater(12,12));
+console.log("---------------------------------------------------------------------------------------------------");

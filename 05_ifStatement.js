@@ -23,13 +23,13 @@ if (num3>num1 && num3>num2) {
 console.log(`------------------------------------------------------------------------------------------`);
 function evenOrOdd(value){
     if (value%2==0) {
-        return evenOrOdd;
+        return "Even";
     }
-    if (value%2!=1) {
-        return evenOrOdd;
+    if (value%2==1) {
+        return "Odd";
     }
 }
 let result=evenOrOdd(46)
-console.log(`Number even or odd ${result}`);
+console.log(`Number even or odd -:${result}`);
 
 

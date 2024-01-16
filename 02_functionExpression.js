@@ -43,3 +43,10 @@ function mahesh(val1,val2) {
 }
 var mahi=mahesh("Vinayak","Koli")
 console.log(`${mahi}`);
+
+console.log("-----------------------Function Expression-----------------------");
+let multiplication=function (a,b){
+return a*b
+}
+console.log(multiplication(3,3));
+

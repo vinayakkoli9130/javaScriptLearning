@@ -69,3 +69,46 @@ console.log(`===================================================================
 // }).finally(function () {
 //    console.log(`Any One Come Or Not i Will Go to The Goa`); 
 // })
+console.log("------------------------------------------------------------------------------------------");
+function doSomething(){
+return new Promise((resolve,reject)=>{
+    //Simulating Asynchrouns Operation
+    setTimeout(()=>{
+        var success=false;// simulating success
+        if(success){
+            resolve("Operation Complete Successfully")
+        }
+        else{
+            reject("Operation Failed")
+        }
+
+    },2000)
+})
+}
+doSomething()
+.then((result)=>{
+console.log(result);
+})
+.catch((error)=>{
+console.log(error);
+})
+.finally(()=>{
+    console.log("Operation Completed");
+})
+console.log("-------------------------------------------------------------------------------")
+let interview=false;
+let result=new Promise((reslove,reject)=>{
+    if(interview){
+reslove("You Are Selected")
+    }
+    else{
+        reject("Sorry You Are Not Selected")
+    }
+})
+.then((result)=>{
+console.log(result);
+}).catch((error)=>{
+console.log(error);
+}).finally(()=>{
+    console.log("your Interview process is completed");
+})

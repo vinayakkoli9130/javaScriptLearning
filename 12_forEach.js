@@ -22,7 +22,7 @@ arrayNumbers.forEach(currentValue=>console.log(currentValue));
 //       console.log(currentValue);
 //     }
 // });
-console.log("========-: Find even numbers :-==========");
+console.log("========- : Find even numbers :-==========");
 const array = [2, 3, 4, 5, 6, 7, 0, 34, 57];
 const arrayOfEven = [];
 console.log(array);

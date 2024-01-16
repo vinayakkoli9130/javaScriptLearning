@@ -1,3 +1,16 @@
+const val="Jay Shree Ram Of Indian God O"
+var cou=0
+for(i=0;i<val.length;i++){
+const element=val[i]
+const lowerCases=element.toLowerCase()
+// console.log(element);
+if(lowerCases=='a'||lowerCases=="e"||lowerCases=='i'||lowerCases=="o"||lowerCases=="u"||lowerCases=="i"){
+  
+  console.log(cou=cou+1,element);
+}
+}
+console.log(cou);
+console.log("-----------------------------------------------------------------------------------");
 var sentence = "Yes Just do it man, I know you can";
 // Print the vowels only aeiou or AEIOU
 var counter = 0;
@@ -95,6 +108,22 @@ sumOfCube(4*4*4)
 sumOfCube(5*5*5)
 console.log(`------------------------------------------------------------------------`);
 
+console.log("-------------------Even index Character Of Given String-----------------");
+
+var sente="Just one small positive thought in the morning can change your whole day."
+for (let index = 0; index < sente.length; index++) {
+  const element = sente[index];
+  if (index%2==0) {
+    console.log(index,element);
+  }
+  
+}
+console.log("----------------------------------------------------------------------");
+
+
+
+
+
 function oddPositionChars(val) {
   for (let index = 0; index < val.length; index++) {
     let vals=" "
@@ -109,9 +138,15 @@ function oddPositionChars(val) {
 oddPositionChars("Hard Work Always Pays Back")
 oddPositionChars("Soon I will be Angular IT Champ")
 console.log(`------------------------------------------------------------------------`);
-
+console.log("----------------iterate array---------------");
 var arrays=[2,4,1,9,6,7,3,5]
 
+for(let element of arrays){
+  console.log(element);
+}  
+
+
+console.log("-----------------------------------------------------------------------------------------------");
 for (const key in arrays) {
   if (Object.hasOwnProperty.call(arrays, key)) {
     const element = arrays[key];
@@ -119,13 +154,14 @@ for (const key in arrays) {
   }
   
 }
+
 console.log(`------------------------------------------------------------------------`);
-for (let index = 1; index < 100; index++) {
- if (arrays.indexOf(index)==-1) {
-  console.log(index);
- }
+// for (let index = 1; index < 100; index++) {
+//  if (arrays.indexOf(index)==-1) {
+//   console.log(index);
+//  }
   
-}
+// }
 console.log(`------------------------------------------------------------------------`);
 (function(){
   var a = b = 3;
@@ -134,6 +170,24 @@ console.log(`-------------------------------------------------------------------
 console.log("a defined? " + (typeof a !== 'undefined'));
 console.log("b defined? " + (typeof b !== 'undefined'));
 console.log('---------------------------------------------------------------------------');
+
+console.log("----------------------palindrome Example-------------------------");
+var wordss="404"
+//  words=wordss.toLowerCase().join('')
+if(wordss==wordss.split('').reverse().join('')){
+  console.log("true");
+}else{
+  console.log("false");
+}
+
+let number=604
+if(number==number.toString().split("").reverse().join("")){
+  console.log(number ,"is palindrome-:","true");
+
+}else{
+  console.log(number ,"is palindrome-:","false");
+}
+console.log("------------------------------------------------------------------------------------------");
 
 function isPalindrome(str) {
   str = str.replace(/\W/g, '').toLowerCase();
@@ -211,6 +265,24 @@ var cost =123.456
 console.log(cost.toFixed(2));
 
 console.log("-------------------------------------------------------------------------------------");
+
+console.log("----------------1 to 100-----------------");
+var valuess=[47,88,7,34,65,78,22,17,97]
+var countss=100
+var nums=[]
+for (let index = 0; index <countss; index++) {
+ 
+  if (valuess.indexOf(index)==-1) {
+    console.log("missing numbers-:",index);
+nums.push(index)
+  }
+  
+}
+console.log(nums);
+
+
+
+
 
 console.log('-------------:Missing Value 1 To 100:----------------');
 const values=[32,56,12,76,4,46,91,23,33,87]

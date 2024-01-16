@@ -1,10 +1,13 @@
 //type conversion-: + operator can do the the type conversion as well from string to number
-console.log(` + operator can do the the type conversion as well from string to number `);
+// console.log(` + operator can do the the type conversion as well from string to number `);
 var numStr = "100";
 var ad = + numStr;
+
 console.log(`typeof numStr is: ${typeof numStr}`);
 console.log(`typeof num is: ${typeof ad}`);
 
+let nummber=+"100"
+console.log(typeof nummber);
 var numStr = "Chandra";
 var num = + numStr;
 console.log(`typeof ${numStr} is: ${typeof numStr}`);
@@ -47,13 +50,17 @@ console.log(typeof str);
 
 
 var boolean=  true / "2";// string not add((+)//with string you can not  perform only(+)
-console.log( boolean);
+console.log( boolean);//0.5
 var boo=true+"2"//concating values
-console.log(boo);
+console.log(boo);//true2
 var boolean= 12 * true;//with number you can perform all operation.
-console.log( boolean);
+console.log( boolean);//12
 var sub ="10"- true-true;
-console.log(sub);
+console.log(sub);//8
 
 var adds=+"12"-true
-console.log(adds);
+console.log(adds);//11
+console.log("---------------------------------------------------------------------------------------------");
+console.log("12"-2+"2");//12-2=10,10+"2"=102
+console.log(2+"12"-2);//2+"12"=212,212-2=210
+console.log(2+2-"12");//2+2=4,4-"12"=-8

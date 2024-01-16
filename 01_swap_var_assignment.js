@@ -4,7 +4,19 @@
 //   }
      
 //   doSomething();
+console.log("-------------Swap Two Variable Number Without Using Third Variable-------------");
+let a=10
+let b=20
+console.log("Before Swapping Variable-:",a,b);
+a=a+b
 
+b=a-b
+
+a=a-b
+
+
+console.log("After Swapping Variable-:",a,b);
+console.log("--------------------------------------------------------------------------------------------------------");
 var sweety="Sweety";
 var cutie="Cutie";
 console.log("================Assignment-1.1=================");
@@ -15,6 +27,7 @@ sweety = cutie;
 cutie=temp;
 console.log("======After Swap=======");
 console.log(sweety,cutie);
+
 console.log("================Assignment-1.2=================");
 var num1=100;
 var num2=200;
@@ -56,3 +69,46 @@ va11=va12;
 va12=va13;
 va13=temprary
 console.log("Before Swap-:",va11,va12,va13);
+console.log("================================================================================");
+var number1=1
+var number2=2
+var number3=3
+console.log("Before Swap-:",number1,number2,number3);
+
+var tempory=number1
+number1=number2
+number2=number3
+number3=tempory
+console.log("After Swap-:",number1,number2,number3);
+
+console.log("Swap In Function");
+function swappingss(val1,val2,val3){
+    console.log("Before Swapping-:",val1,val2,val3);
+    var temp=val1
+val1=val2
+val2=val3
+val3=temp
+
+console.log("After Number Swapping-:",val1,val2,val3);
+}
+swappingss(1,2,3)
+swappingss("Mahesh","Ganesh","Dipak")
+
+var x="Mahesh"
+var y="Vinayak"
+console.log("Before Swap String-:",x,y);
+var n=x
+x=y
+y=n
+console.log("After Swapping String-:",x,y);
+console.log("Create Function To Swapping Two Number Without Using Third Value");
+function swap(a,b) {
+    console.log("Before Swapp-:",a,b);
+    a=a+b
+    b=a-b
+    a=a-b
+    console.log("After Swapp-:",a,b);
+    
+}
+swap(2,3)
+swap(4,6)
