@@ -9,7 +9,7 @@ let strings="Happy New Year"
 //Find Total Number Of String length
 console.log(strings.length);//length of string is 14/they calculate from 1 to next.
 //find which chractor on given position
-console.log(strings.charAt(4));//return 4th index charactor from given string.
+console.log(strings.charAt(4));//return 4th index number charactor from given string.
 //find out index of charactor
 console.log(strings.indexOf("w"));//return index of w in given string
 //create new string from existing string.there are multiple methods(slice(),substring(),substr())
@@ -34,3 +34,4 @@ console.log(strings.trim());
 console.log(strings.split(" "));
 //replace charactor or word from given string
 console.log(strings.replace("Year","Life"));
+console.log(strings);//string is immutable

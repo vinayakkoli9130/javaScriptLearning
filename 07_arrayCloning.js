@@ -2,6 +2,7 @@ console.log("Array shallow Cloning");
 let arrayOfEvenNum = [0, 2, 4, 6, 8 ];
 let arrayOfNum = arrayOfEvenNum; // Shallow Cloning
 arrayOfEvenNum[1] = 10;
+arrayOfNum[1]=12
 console.log(arrayOfEvenNum);
 console.log(arrayOfNum);
 

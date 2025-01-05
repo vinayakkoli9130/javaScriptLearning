@@ -1,40 +1,40 @@
-//Variable is container which is store value-string,boolean,number
+//Variable is container which is store value-string,boolean,number,object
 //undefined-variable Is declared but the value is Not Assigned,then the value of that variable will be "undefined"
 var myName; // Variable Declaration
 myName = "Mohit Sharma"; // Variable initialization
-console.log(myName);
+console.log(myName);//variable print -:Mohit Sharma
 var vinny;
 // vinny=121;
 // vinny=true;
 vinny="don't warry be happy"
-console.log(vinny);
-console.log(typeof vinny);
+console.log(vinny);//don't warry be happy
+console.log(typeof vinny);//string
 
 var myFrdName = "Sachin Tendulkar"; // Variable declaration and initialization at the same time
-console.log(myFrdName, typeof myFrdName);
+console.log(myFrdName, typeof myFrdName);// Sachin Tendulkar string
 
 
 myFrdName = "MS Dhoni"; // Variable update 
-console.log(myFrdName);
+console.log(myFrdName);//MS Dhoni
 
 var myFullName = "Mohit Sharma";
 
-console.log(myFullName);
+console.log(myFullName);//Mohit Sharma
 
 console.log("==== Learning typeof ====");
 var age = 31;
 var ageType = typeof age;
-console.log(ageType);
-console.log(typeof age);
-console.log("============Primitive Data type");
+console.log(ageType);//boolean
+console.log(typeof age);//boolean
+console.log("====================Primitive Data type=====================");
 var pinCode = 431202;
-console.log(pinCode, typeof pinCode);
+console.log(pinCode, typeof pinCode);//number
 
 var city="Pune";
-console.log(city, typeof city);
+console.log(city, typeof city);//string
 
 var isMarried = false;
-console.log(isMarried, typeof isMarried);
+console.log(isMarried, typeof isMarried);//boolean
 // Special Data type or trival data type
 console.log("==== Learning undefined====");
 var country;//variable Is declared but the value is Not Assigned,then the value of that variable will be "undefined"
@@ -47,7 +47,7 @@ console.log(student)
 
 var companyName;
 console.log(companyName);
-console.log(typeof companyName);
+console.log(typeof companyName);//
 
 console.log(typeof 45); var weight=45;
 console.log(typeof "Billgates"); 

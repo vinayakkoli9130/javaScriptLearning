@@ -39,8 +39,8 @@ function addThreeValue(val1,val2,val3){
 }
 let add=addThreeValue(10.23,600,40); 
 console.log(add);
-let sun=addThreeValue("Hello","Good","Morning");
-console.log(sun);
+let sum=addThreeValue("Hello","Good","Morning");
+console.log(sum);
 
 function squre(val) {
   return add= val*val  

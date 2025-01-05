@@ -54,7 +54,7 @@ var sent="What People Things I Don't Care What You Think This Is Matters";
 count=0
 for (let index = 0; index < sent.length; index++) {
     var strings=sent.charAt(index)
-    var stringss=strings.toLocaleLowerCase()
+    var stringss=strings.toLowerCase()
   if (stringss=='a'||stringss=='e'||stringss=='i'||stringss=='o'||stringss=='u') {
     console.log(stringss);
     count=count+1;
@@ -67,7 +67,7 @@ function countCharA(string) {
 
 for (let index = 0; index < string.length; index++) {
   var totalChar=string.charAt(index)
-  var dom=totalChar.toLocaleLowerCase()
+  var dom=totalChar.toLowerCase()
   if (dom=="a") {
     console.log(dom);
 count=count+1
@@ -85,7 +85,7 @@ var str="I Am Very Good IT Developer";
 let num=0
 for (let index = 0; index < str.length; index++) {
 
-  let string=str.charAt(index).toLocaleLowerCase()
+  let string=str.charAt(index).toLowerCase()
   if (string=="a" || string=="e" || string=="i" || string=="o" || string=="u" ) {
     console.log(string);
     num=num+1
@@ -180,7 +180,7 @@ if(wordss==wordss.split('').reverse().join('')){
   console.log("false");
 }
 
-let number=604
+let number=606
 if(number==number.toString().split("").reverse().join("")){
   console.log(number ,"is palindrome-:","true");
 

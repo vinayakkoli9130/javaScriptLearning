@@ -1,7 +1,7 @@
 
 //let and const keyword
-//let keyword is used declare variable with block scope.
-//const keyword is used to declare constunt with block scope
+//let keyword is used declare variable with block scope or function scope.
+//const keyword is used to declare constunt with block scope or function scope
 let x=5
 console.log(x);
 x=10               //now x is 10 re-signable
@@ -17,7 +17,7 @@ var array=[1,2,3,4,5,6,7]
 var updatedValues=array.map(a=>{return a*2})
 console.log(updatedValues);
 
-//Arrow Function-:Fuction Can Create Cleaner And Shorter Way As Compare To Regular Function
+//Arrow Function-:Function Can Create Function Cleaner And Shorter Way As Compare To Regular Function
 var arrays=(a,b)=>{
 console.log(a+b);
 }

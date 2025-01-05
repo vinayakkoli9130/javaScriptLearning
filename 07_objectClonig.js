@@ -63,15 +63,16 @@ console.log(empBill.marks.science);
 console.log(empBill.marks);
 empBill.marks.math=97
 console.log(empBill.marks);
-
+console.log("--------------------------------------------------------------");
 let emloyee={
     name:"Vinayak",
     lastName:"Koli"
 }
 let employee1=Object.assign({},emloyee)
 
-console.log(emloyee);
-console.log(employee1.name
-    ="Mahesh");
+// console.log(emloyee);
+employee1.name
+    ="Mahesh"
+    emloyee.lastName="Jamadar"
     console.log(employee1);
     console.log(emloyee);

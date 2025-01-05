@@ -1,4 +1,4 @@
-var compare= 0 =='';   
+var compare= 0 =='  ';   
 console.log(`0 = = ' '-:${compare}`);//true
 
 var compare= 0 =='0'; 
@@ -10,7 +10,7 @@ console.log(`0 = = false-:${compare}`);//true
 var compare= null == undefined; 
 console.log(`null = = undefined-:${compare}`);//true
 
-var compare= 1 ==[1];
+var compare= 1 ==[1];//0==[]//0==[0]=true//1==[5]="false"
 console.log(`1 = = [1]-:${compare}`);//true
 
 var compare= 1 ==true;

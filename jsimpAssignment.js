@@ -91,3 +91,4 @@ console.log("------------------------------------------------------------");
 var tarikh=new Date()
 var divas=['Sunday','Monday','Tue','Wed','Thirsday','Friday','Sat']
 console.log(divas[tarikh.getDay()]);
+

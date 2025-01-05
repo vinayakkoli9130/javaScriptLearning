@@ -6,7 +6,8 @@ for (let index = 0; index < sentence.length; index++) {
     if (char=='a' || char=='e' || char=='i' || char=='o' || char=='u' || 
         char=='A' || char=='E' || char=='I' || char=='O' || char=='U') {
         console.log(char);
-        counter = counter +1;
+        // counter = counter +1;
+        counter++
     }   
 }
 console.log(`Total vowels in string is : ${counter}`);
@@ -16,6 +17,7 @@ console.log(`Total vowels in string is : ${counter}`);
 // Print the vowels only aeiou or AEIOU
 var counter = 0;
 for (let index = 0; index < sentence.length; index++) {
+    // var charCopy=sentence[index].toLowerCase()
     var char = sentence.charAt(index);
     var charCopy = char.toLowerCase();
     if (charCopy=='a' || charCopy=='e' || charCopy=='i' || charCopy=='o' || charCopy=='u') {
@@ -69,7 +71,7 @@ console.log(reverseString)
 var words="Life Is Not Complete"
 var reverse=" ";
 var wordString=words.length;
-for (let index = wordString; index > 0; index--) {
+for (let index = wordString.length; index > 0; index--) {
    var char=words.charAt(index);
    reverse=reverse.concat(char)
 }
@@ -77,7 +79,7 @@ console.log(reverse);
 
 
 
-var string="Life Is Not Complite"
+var string="Life Is Not Complete"
 for (let index =string; index < string.length; index++) {
     var char=charAt(index)
   if (char("a")||char("e")||char("i")||char("o")||char("u")) {
@@ -111,7 +113,7 @@ var string="Don't Thing About Kal,Enjoy Your Every Pal";
 counter=0
 for (let index = 0; index < string.length; index++) {
  var char=string.charAt(index)
- var str=char.toLocaleLowerCase()
+ var str=char.toLowerCase()
  if (str=="a"||str=="e"||str=="i"||str=="o"||str=="u") {
     console.log(str);
     counter=counter+1;
@@ -133,9 +135,10 @@ console.log(rever);
 var string="Don't Thing About Kal,Enjoy Your Every Pal";
 var reverce=" "
 for (let index = string.length; index >=0; index--) {
-  reverce=reverce.concat(string.charAt(index))
+//   reverce=reverce.concat(string.charAt(index))
+  reverce=reverce.concat(string[index])
 }
-console.log(reverce);
+console.log("Reverce String-:",reverce);
 
 
 

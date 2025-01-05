@@ -1,8 +1,8 @@
 console.log(`===========a)Simple Message With Arrow Fuction=================`);
-let desplay= ()=>{
+let display= ()=>{
 console.log("Good Morning, Today Is Monday");
 }
-desplay();
+display();
 console.log(`--------------------------------------------------------------------------------------------`);
 console.log(`=====2)Multiplication Of Three Numbers And Multiplication Of Three Number With One Default Value=====`);
 let multiply=(val1,val2,val3=1)=>{

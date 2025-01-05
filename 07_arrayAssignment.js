@@ -60,7 +60,7 @@ console.log(arrayN);
 console.log(`===============================Splice Method===========================`);
  let arraySting=[46,39,22,65,45,88,12,19,39]
 console.log(arraySting);
-arraySting.splice(2,0,72)//Adding Element OF before index Number 2
+arraySting.splice(2,0,72)//Adding Element OF  index Number 2
 console.log(arraySting);
 arraySting.splice(4,1,32)//Replace Index Number 4 Value With 32
 console.log(arraySting);

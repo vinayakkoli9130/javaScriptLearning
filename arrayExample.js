@@ -6,7 +6,7 @@ return a-b
 console.log(assending);
 console.log('-------------------------------------------------------------------------------');
 //Addition Of Array Using Reduce() Method
-var addition=array.reduce((a,b)=>{
+let addition=array.reduce((a,b)=>{
 return a+b
 })
 console.log("Addition Of Array-:",addition);
@@ -18,7 +18,19 @@ for (let index = 0; index < array.length; index++) {
   console.log(forAddition);
 }
 console.log('-------------------------------------------------------------------------------');
+
+
 //Find Missing Number In Array 1 To 100
+let arr=[25,87,12,45,33,78]
+let miss=[]
+for(let i=1;i<=100;i++){
+  
+if(arr.indexOf(i)==-1){
+miss.push(i)
+}
+}
+console.log("Missing Number In 1 To 100-:",miss);
+
 var missing=[]
 for (let index = 1; index <=100; index++) {
    if(array.indexOf(index)==-1){

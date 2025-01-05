@@ -23,7 +23,7 @@ console.log(personName);
 
 console.log(`=== Adding an property into an object====`);
 
-console.log(`Salary Of Person${person.salary=500000}`);//adding new data member or property in person object name and which property you want to add.
+console.log(`Salary Of Person ${person.salary=500000}`);//adding new data member or property in person object name and which property you want to add.
 console.log(person.salary);//initilise person salary
 person.company = "Microsoft";
  console.log(person);
@@ -52,7 +52,7 @@ person.walk= function(){//adding function walk in object person
     console.log(`Hey I can walk and run man`);
 }
 console.log(person);
-console.log(`==============Nested Object=========================`);//oject inside object is called nested object
+console.log(`==============Nested Object=========================`);//object inside object is called nested object
 const student = {
     name: "Stew Jobs",
     age: 50,
@@ -97,6 +97,7 @@ const billgates = {
 }
 console.log(`========== in operator ================`);//in operator used to check property/key is available or not string
  let isAvailable = "height" in billgates;
+ console.log("heightt" in billgates);
  console.log(isAvailable);
  if (isAvailable) {
     delete billgates.height;
@@ -107,12 +108,53 @@ console.log(`========== in operator ================`);//in operator used to che
 
 
 
-// console.log(Object.entries(billgates));
+console.log(Object.entries(billgates));
 console.log("Keys-:",Object.keys(billgates));
 console.log("Value-:",Object.values(billgates));
 
+const vinny={
+  id:1,
+  name:"Vinayak",
+  graduation:"BCS",
+  percentage:67,
+  city:"Sangola"
+}
 
-// for (const key in student) {
- 
-//     console.log(key,values);
+// for (let key in vinny) {
+//   if (vinny.hasOwnProperty(key)) {
+//     console.log('Key:', key,'Value:', vinny[key]);
+//     console.log();
 //   }
+// }
+console.log(vinny);
+   for(let key in vinny){
+if(vinny.hasOwnProperty(key)){
+  console.log(key,vinny[key]);
+}
+   }
+   vinny.collegeName="Sangola College Sangola"
+   console.log("After Add College Name Property In Object-:",vinny);
+
+   delete vinny.city
+   console.log("After Deleting City Property Of Object -:",vinny);
+
+   vinny.id=45
+   console.log("After Modify id propert of vinny Object-:",vinny);
+
+   vinny.hobbies={
+    sport:"Cricket",
+    songs:"Marathi",
+    movie:"Tumbbad"
+   }
+   console.log("After Adding Nested object in object\n",vinny.hobbies.sport);
+
+   vinny.hobbies.book="Rahasya"
+   console.log(vinny.hobbies.book="Wings Of Fire");
+   console.log(vinny.hobbies);
+   
+   //deleting nested object property book
+   delete  vinny.hobbies.book
+   console.log(vinny.hobbies);
+
+   
+  

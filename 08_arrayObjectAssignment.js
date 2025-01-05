@@ -16,6 +16,7 @@ let punjabBank=new Bank("Punjab Bank ","Mangalwedha","4633456876845","panajab777
 let array=[axisBank,sbiBank,icicBank,kotakBank,hdfcBank,punjabBank]
 console.log(`Creating A Following Objects `);
 
+
 console.log(axisBank);
 console.log(sbiBank);
 console.log(icicBank);

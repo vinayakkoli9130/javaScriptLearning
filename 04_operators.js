@@ -3,10 +3,11 @@
 //binary operator-:rule for combining two element to produce another element.
 //ternary/conditional operator-:an operator takes three operands(arguments)
 
-//Arithmatic Operator-:Addition(+),Substraction(-),Multiplication(*),Division(/),Module(%)
+//Arithmatic Operator-:Addition(+),Substraction(-),Multiplication(*),Division(/),Module(%),Exponsition(**)
 //Unary Operators-:Increament Operator(++),Decreament Operator(--).Increment or Decrement one value
 //Assignment Operators-:Assignment(=),compound Module(%=),Compound Addition(+=),Compound Substraction(-=),Compound Multipliaction(-=),Compound Division(/=)
-//Comparison Operators-:grater than(>),less than(<),greater than equal to(>=),less than equal to(<=)
+//Comparison Operators-:grater than(>),less than(<),greater than equal to(>=),less than equal to(<=),equal to(==)
+ //strictly equal(===),Not Equal(!=),strictly not equal(!==)
 //Logical Operator-:AND(&&),or(||),NOT(!)
 console.log(`============ Arithmetic Operators =================`);
 var num1=10;
@@ -49,7 +50,7 @@ console.log(num5);
 
 // var num1 = 10;
 // var num2 = 5;                  //Compound Substraction.
- console.log(`Compound Subtraction ${num1-=num2}`); // num1 = 15 - 5//subtraction Of num1 and num2 using(-=)
+ console.log(`Compound Substraction ${num1-=num2}`); // num1 = 15 - 5//subtraction Of num1 and num2 using(-=)
 
  console.log(`============ Comparison Operators =================`);
 // var num1 = 10;

@@ -32,7 +32,7 @@ console.log("-------------------------------------------------------------------
 let interviews=(name,grad,hsc,ssc)=>{
 return grad>=70 && (hsc>=80||ssc>=70)?`Congrats ${name} you are selected to interview`:`Sorry ${name} unfortunatly you are not selected`
 }
-console.log(interviews("Vinny",71,60,70));
-console.log(interviews("Mahi",69,99,80));
-console.log(interviews("Anju",71,80,60));
-console.log(interviews("Dipu",81,81,65));
+console.log(interviews("Vinny",71,60,70));//s
+console.log(interviews("Mahi",69,99,80));//ns
+console.log(interviews("Anju",71,80,60));//s
+console.log(interviews("Dipu",81,81,65));//s

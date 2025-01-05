@@ -98,9 +98,9 @@ while (num>=20) {
 //    console.log(index);
 // index=index-5;   
 // } while (index>=0);
-var n=83
-do{
+// var n=83
+// do{
 
-console.log(n);
-n=n
-}while(n>0)
+// console.log(n);
+// n=n
+// }while(n>0)

@@ -41,8 +41,8 @@ else if (marks<=0 || marks>100) {
   if (marks<34 && marks > 1) {
       console.log(` Marks Is -:${marks} Sorry You Are Fail.Please Try Again ` );
   }
+
  
-  
 }
 
 }

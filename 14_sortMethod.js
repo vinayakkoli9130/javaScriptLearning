@@ -6,7 +6,7 @@ console.log("==== reverse() === ");
 arrayOfNames.reverse();
 
 console.log(arrayOfNames);
-
+ 
 console.log("==== sort() in ascending order === ");
 arrayOfNames.sort();
 console.log(arrayOfNames);
@@ -27,7 +27,7 @@ console.log(arrayOfNumbers);
 
 console.log("===========Practice of sort method=====================");
 
-arrays=[353,43,4332,45,5,66,5,43,445,9,76]
+let arrays=[353,43,4332,45,5,66,5,43,445,9,76]
 
 console.log("Given Array -:",arrays);
 
@@ -70,6 +70,7 @@ let hero =new Vehicle("Hero","Splender","Petrol","Two Wheeler",85000);
  arrayOfVehicles.forEach((currentValue)=>{
     console.log(currentValue.company, currentValue.price);
  });
+ 
  let driving=arrayOfVehicles.sort((a,b)=>{
 return a.drive>b.drive?1:-1;
  })
@@ -97,7 +98,7 @@ console.log(`Arrange Array In Descending Order-:`);
 stringOfArray.reverse()
 console.log(stringOfArray);
 console.log(`--------------------------------------------------------------------------------------------------------------------`);
-const array=[45,79,42,61,42,97,92,39,46,12,28,1,7,98,08,9,24,97,64]
+const array=[45,79,42,61,42,97,92,39,46,12,28,1,7,98,80,9,24,97,64]
 console.log(array);
 array.sort()
 console.log(array);

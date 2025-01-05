@@ -122,51 +122,55 @@ switch (month) {
     console.log(`In valid Data`);
     break;
 }
-console.log(`=========================================================================`);
-var life=3;
+console.log(
+  `=========================================================================`
+);
+var life = 3;
 switch (life) {
   case 1:
     console.log("Life Is All About Today Step");
     break;
-    case 2:
-      console.log("Life Is Journy Not Race");
-      break;
-      case 3:
-        console.log("Life Is Is Not Deficult You Think Negative ");
-        break;
-        case 4:
-          console.log("Life Is Not Short You Not Survive");
-          break;
-          case 5:
-            console.log("Life Always Take Second Chance");
-            break;
-                    
+  case 2:
+    console.log("Life Is Journy Not Race");
+    break;
+  case 3:
+    console.log("Life Is Is Not Deficult You Think Negative ");
+    break;
+  case 4:
+    console.log("Life Is Not Short You Not Survive");
+    break;
+  case 5:
+    console.log("Life Always Take Second Chance");
+    break;
+
   default:
-    console.log('Go And Sleep');
+    console.log("Go And Sleep");
     break;
 }
-console.log(`--------------------------------------------------------------------------`);
-var int=6
+console.log(
+  `--------------------------------------------------------------------------`
+);
+var int = 6;
 switch (int) {
   case 1:
     console.log("Vinayak");
     break;
-    case 2:
-      console.log("Mahesh");
+  case 2:
+    console.log("Mahesh");
     break;
-    case 3:
+  case 3:
     console.log("Ganesh");
     break;
-    case 4:
+  case 4:
     console.log("Dipak");
     break;
-    case 5:
+  case 5:
     console.log("Navaj");
     break;
-    case 6:
+  case 6:
     console.log("Anjum");
     break;
-    case 7:
+  case 7:
     console.log("Arman");
     break;
 

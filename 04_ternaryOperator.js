@@ -1,8 +1,11 @@
 //==-: javaScript is automatical convert one data type to another data type as per need
 
 //===-:javaScript Strictly follow the rule Can't change datatype.
+//
+//condition ? exprIfTrue : exprIfFalse
 
 var num1 = 10;
+
 var num2 = "10";
 console.log(typeof num1);//number
 console.log(typeof num2);//string
@@ -81,3 +84,5 @@ console.log(student(24));
 console.log(student(undefined));
 console.log(student("ten"));
 
+
+console.log(typeof(undefined));

@@ -1,6 +1,6 @@
 console.log(`1`);
 function countCharA(string) {
-  console.log(string);
+  console.log(string); 
   var counter = 0;
   for (let index = 0; index < string.length; index++) {
     var char = string.charAt(index);

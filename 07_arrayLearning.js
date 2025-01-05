@@ -53,8 +53,9 @@ for (let index = 0; index < arrayNumbers.length; index++) {
 }
 
 console.log(`Traversing array using for loop in Reverse order`);
-// initialization   condition  update 
+
 let lastIndex = arrayOfNumbers.length-1;
+      // initialization   condition  update 
 for (let index = lastIndex; index > 0; index--) {
     const element = arrayOfNumbers[index];
     // console.log(element); 
@@ -152,7 +153,7 @@ console.log(isAvailable);
 
 console.log(`======== join() ==========`);
 var arrayOfNum = [4, 5, 6, 8, 9, 33, 66];
-let joinResult = arrayOfNum.join(" ");//recreate seprate new array and seperate elements
+let joinResult = arrayOfNum.join(" , ");//recreate seprate new array and seperate elements
 console.log(joinResult);
 console.log(typeof joinResult);
 

@@ -1,0 +1,88 @@
+// {
+//     "version": "0.2.0",
+//     "configurations": [
+//         {
+//             "args": [
+//                 "--extensionDevelopmentPath=${workspaceFolder}"
+//             ],
+//             "name": "Launch Extension",
+//             "outFiles": [
+//                 "${workspaceFolder}/out/**/*.js"
+//             ],
+//             "preLaunchTask": "npm",
+//             "request": "launch",
+//             "type": "extensionHost"
+//         },
+//         {
+//             "name": "Attach",
+//             "port": 9229,
+//             "request": "attach",
+//             "skipFiles": [
+//                 "<node_internals>/**"
+//             ],
+//             "type": "node"
+//         },
+//         {
+            
+//             "type": "node",
+//             "request": "launch",
+//             "name": "Launch Program",
+//             "skipFiles": [
+//                 "<node_internals>/**"
+//             ],
+//             "program": "${workspaceFolder}\\00_revice.js"
+//         },
+//         {
+//             "type": "node-terminal",
+//             "name": "JavaScript Debug Terminal",
+//             "request": "launch",
+//             "cwd": "${workspaceFolder}"
+//         }
+//     ]
+// }
+
+{
+    "type": "node",
+    "request": "launch",
+    "name": "invoke local",
+    "program": "/Users/MYNAME/.nvm/versions/node/v17.8.0/lib/node_modules/serverless/bin/serverless",
+    "args": [
+        "invoke",
+        "local",
+        "-f",
+        "${fileBasenameNoExtension}",
+        "-p",
+        "testEvents/${fileBasenameNoExtension}.json"
+    ],
+    "cwd": "${fileDirname}/../",
+    "skipFiles": [
+        "<node_internals>/**/*.js",
+        "node_modules/**"
+    ],
+    "env": { "AWS_PROFILE": "awsProfile" },
+    "outFiles": [
+        "${workspaceRoot}/**/*.js"
+    ],
+    "configurations": [
+        
+        {
+            "name": "Launch Program",
+            "program": "${workspaceFolder}/app.js",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+        {
+            "name": "Attach",
+            "port": 9229,
+            "request": "attach",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        }
+
+    ]
+}

@@ -11,13 +11,13 @@ var vote = function (val) {
          console.log(`Age Of Candidate-:${val}---->This Is Invalid Data`);
      }
 }
-vote(45);
-vote(17);
-vote(8);
-vote(20);
-vote(-10);
-vote(200);
-vote(0);
+vote(45);//eligible
+vote(17);//not elifible
+vote(8);//not eligible
+vote(20);//eligible
+vote(-10);//invalid data
+vote(200);//invalid
+vote(0);//ivalid
 console.log(`===========================================================================`);
 function gradeCalculation(marks) {
     if (marks>=90 && marks<=100) {

@@ -4,42 +4,43 @@ var sentence = "I am very good IT Developer";
 var counter = 0;
 for (let index = 0; index < sentence.length; index++) {
     var char = sentence.charAt(index);
-    var charCopy=char.toLocaleLowerCase();
+    var charCopy=char.toLowerCase();
     if (charCopy=='a' || charCopy=='e' || charCopy=='i' || charCopy=='o' || charCopy=='u') {
         counter = counter +1;
+        console.log(charCopy);
     }   
 }
 console.log(`Total vowels in string is -: ${sentence} = ${counter}`);
 console.log(`----------------------------------------------------------------------------------------------`);
 console.log(`2)`);
-function sumOfCubes(num) {
-    var sumNum=0;
-    for (let index = 0; index <num; index++) {
-     sumNum+=index**3;
-    }
-    return sumNum;
-}
-console.log(`${sumOfCubes(5)}`);
+// function sumOfCubes(num) {
+//     var sumNum=0;
+//     for (let index = 0; index <num; index++) {
+//      sumNum+=index**3;
+//     }
+//     return sumNum;
+// }
+// console.log(`${sumOfCubes(5)}`);
 
 function cubeSome(val) {
-    let add=0 ;
- let multi=val*val*val 
- console.log(multi); 
-//    add=add.concat(multi);
-//  console.log(add); 
+   
+ var multi=val*val*val 
+ return multi;
+
 }
-cubeSome(1)
-cubeSome(2)
-cubeSome(3)
-cubeSome(4)
-cubeSome(5)
+console.log(`5 Cube Is-: ${cubeSome(5)}`);
+console.log(`4 Cube Is-: ${cubeSome(4)}`);
+console.log(`7 Cube Is-: ${cubeSome(7)}`);
+
+
 console.log(`==========================================================================================================`);
 
 let str="Everthing Fear In Love And War"
+console.log(str);
 let count=" "
 for (let index = 0; index < str.length; index++) {
     let word=str.charAt(index)
-    let wordCap=word.toLocaleLowerCase()
+    let wordCap=word.toLowerCase()
   if (wordCap=='a'|| wordCap=='e'|| wordCap=='i'||wordCap=="o"||wordCap=="u") {
     count=count.concat(" ",wordCap);
   }
@@ -58,4 +59,18 @@ for (let index = 0; index < sentence.length; index++) {
  }
  console.log(counters);
   
+}
+console.log("--------------++++++-------------------------+++++-------------------------");
+
+let sent="I Am Not Good I Am Not Bad"
+//Find Out Vowels From The String
+console.log(sent);
+for(let index=0;index<=sent.length;index++){
+ let element= sent.charAt(index)
+ console.log("Element Of String-:",element);
+ let lowerCases=element.toLowerCase()
+ if(lowerCases=="a"||lowerCases=="e"||lowerCases=="i"||lowerCases=="o"||lowerCases=="u"){
+
+ }
+ console.log(lowerCases);
 }

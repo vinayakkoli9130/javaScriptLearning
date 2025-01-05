@@ -1,12 +1,12 @@
-//Hoisting-:hoisting means you/we can acceses variable or a fuction before declaration.
+//Hoisting-:hoisting means you/we can acceses variable or a function before declaration.
 //for variables only those variable will be hoisted that is declared using `var` keyword and not using the `let and `const`keyword
 //for function only hoisted Regular  function
-
+// city = "Pune"
 console.log(city);//you can accesses before declarion of variable using `var` keyword
 var city = "Pune";
 
 
-let state = "MH";//let can't allow hosthing
+let state = "MH";//let can't allow hosting
 console.log(state);
 //hosting can perform only normal function
 show();//you can call function Before declaration.

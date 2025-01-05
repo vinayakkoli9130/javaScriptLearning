@@ -1,4 +1,4 @@
-//String template are definde using backtics(` `),variable substutution using ${ }
+//String template are definde using backtics(` `),variable substitution using ${ }
 function stringTemplateAssig() {
     console.log(`My Dream Company is "Cognizant"`);
     console.log("=========================: :==============================");

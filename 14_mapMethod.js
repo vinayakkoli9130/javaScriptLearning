@@ -8,11 +8,11 @@ const arrayOfNumber = [0, 2, 3, 5, 6];
 //     })
 // [ 10,  12, 13, 15, 16 ]
 const arrayTransform = arrayOfNumber.map((currentValue)=>{
-    return currentValue+10; // 0+10  2+10 
+    return currentValue+10; // 0+10  2+10 3+10 5+10 6+10
 });
 console.log(arrayTransform);
 const arrayOfSquare =arrayOfNumber.map((currentValue)=>{ // 0 
-    return currentValue * currentValue; // 4
+    return currentValue * currentValue; // 4 
 });
 console.log(arrayOfSquare);
 

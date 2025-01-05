@@ -3,7 +3,7 @@ function fNumber(val) {
     var count=1
 for (let index = 1; index <=val; index++) {
  
-    count=index*count;
+    count*=index;
 }
   console.log(`Factorial Given Number-${val}-:   ${count}`);  
 }
@@ -100,7 +100,7 @@ console.log(`Accessing an nested certification proprty`);
 
 
    console.log(5);
-   console.log(`Add new proprty in proffesor object`);
+   console.log(`Add new proprty in professor object`);
    professor.height=6,
    console.log(professor);
 

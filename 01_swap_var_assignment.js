@@ -4,7 +4,7 @@
 //   }
      
 //   doSomething();
-console.log("-------------Swap Two Variable Number Without Using Third Variable-------------");
+console.log("-------------1)Swap Two Variable Number Without Using Third Variable-------------");
 let a=10
 let b=20
 console.log("Before Swapping Variable-:",a,b);
@@ -14,8 +14,17 @@ b=a-b
 
 a=a-b
 
-
 console.log("After Swapping Variable-:",a,b);
+console.log("-------------2)Swap Two Variable Number Without Using Third Variable-------------");
+let r=1
+let s=2
+
+console.log("Before Swap-:",r,s);
+r=r+s
+s=r-s
+r=r-s
+console.log("After Swap-:",r,s);
+
 console.log("--------------------------------------------------------------------------------------------------------");
 var sweety="Sweety";
 var cutie="Cutie";
@@ -64,10 +73,10 @@ var va11="Vinayak"
 var va12="Vaishnavi"
 var va13="Jyoti"
 console.log("Before Swap-:",va11,va12,va13);
-let temprary=va11
+let temperory=va11
 va11=va12;
 va12=va13;
-va13=temprary
+va13=temperory
 console.log("Before Swap-:",va11,va12,va13);
 console.log("================================================================================");
 var number1=1
@@ -112,3 +121,5 @@ function swap(a,b) {
 }
 swap(2,3)
 swap(4,6)
+
+

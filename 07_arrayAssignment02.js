@@ -64,7 +64,7 @@ console.log(`11) 23 Number Is Available In Given Array--->${arrayNumbers.include
 console.log(`=========================================================================`);
 console.log(arrayNumbers);
 arrayNumbers.splice(3,0,55,66)
-console.log("12) Inserting Numbers Before Index 3--->",arrayNumbers);
+console.log("12) Inserting Numbers  Index 3--->",arrayNumbers);
 console.log(`=========================================================================`);
 arrayNumbers.splice(4,3)
 console.log("13)Delete 3 Element Starting From Index 4",arrayNumbers);

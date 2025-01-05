@@ -40,7 +40,7 @@ console.log(name,actor,ladyActor,singer,director);
 for (const key in movie) {
     if (Object.hasOwnProperty.call(movie, key)) {
         const element = movie[key];
-        console.log(element);
+        console.log(element,key);
     }
 }
 // for (const iterator of movie) {

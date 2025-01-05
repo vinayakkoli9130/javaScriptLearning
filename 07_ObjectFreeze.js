@@ -43,7 +43,8 @@ const anilInfo={
      city : "Pune",
      pin: "431202"
  }
-Object.assign(anilInfo,sunilAddress)//assign method are used to Merge objects.
+let mergeObject=Object.assign({},anilInfo,sunilAddress)//assign method are used to Merge objects.
+console.log(mergeObject);
 console.log(anilInfo);
 console.log(sunilAddress);
 

@@ -43,7 +43,7 @@ function monthOfYear(monthNumber) {
           break;
       } 
 }
-monthOfYear(2);
+monthOfYear(0);
 monthOfYear(5);
 monthOfYear(12);
 monthOfYear(15);

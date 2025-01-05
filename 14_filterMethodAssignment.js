@@ -21,3 +21,5 @@ const arrayFilterEmployee = array.filter( company => company.empCompany=="TCS" )
         arrayFilterEmployee.forEach((element)=>{
 console.log("Company Name-:",element.empCompany ,"Employee Name-:",element.empName);
         })
+        console.log("---------------------------------------------------");
+        

@@ -52,7 +52,9 @@ console.log(" Student list after split by char ,", studListSplit);
 console.log("Total number students: ", studListSplit.length);
 console.log(`=================================================================================================`);
 var sentence = "Yes you can do it guys, just keep learning and practising as well";
+//Split a string into substrings using the specified separator and return them as an array.
 var wordsInSentence =  sentence.split(" ");//Collect The Total Number Of spaces in a string.
+
 console.log(wordsInSentence);
 console.log("Total words in sentence string is: ", wordsInSentence.length);//
 console.log(`==================================================================================================`);
@@ -90,10 +92,10 @@ console.log(`First name is: ${firstName} and last name is ${lastName}`);
          
     
 var name="Vinayak"
-var fName="Arman"
-let conc=name+" "+fName
+var frdName="Arman"
+let conc=name+" "+frdName
 console.log(conc);
-console.log(name.concat(" ","Ganesh"," ",fName));
+console.log(name.concat(" ","Ganesh"," ",frdName));
 
 var string="Jay Shree Ram"
 console.log(string.split(" ").length);
