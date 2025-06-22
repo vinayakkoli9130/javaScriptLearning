@@ -1,4 +1,4 @@
-//Closure -:A closure is an inner function that has access to the outer function and globle variable.
+//Closure -:A closure is an inner function that has access to the outer function  variable.
 
 //It Has access to it own scoped variable.
 
@@ -50,3 +50,14 @@ console.log(`-------------------------------------------------------------------
 // let cos=outer()
 // // cos(); 
 // outer()()
+
+function outerFun(){
+   let outerVar="I Am From Outer Scope! "
+   function innerFun(){
+      console.log(outerVar);
+      
+   }
+   return innerFun
+
+}
+outerFun()()

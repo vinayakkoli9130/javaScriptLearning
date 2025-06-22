@@ -1,4 +1,4 @@
-let array=[12,32,43,67,43,60,11,21,33,,32,54]
+let array=[12,32,43,67,43,60,11,21,33,32,54]
 console.log(`Available Element In Array-:${array}`);
 console.log(`Total Numbers Of Element In Array-->${array.length}`);
 console.log(`Size Of Array Index-->${array.length-1}`);

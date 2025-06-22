@@ -19,5 +19,8 @@ console.log(`1 = = true-:${compare}`);//true
 var compare= 1 =='1';
 console.log(`1 = = '1'-:${compare}`);//true
 
+var compare=null==0
+console.log(compare)
+
 
 

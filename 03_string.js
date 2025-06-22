@@ -99,3 +99,6 @@ console.log(name.concat(" ","Ganesh"," ",frdName));
 
 var string="Jay Shree Ram"
 console.log(string.split(" ").length);
+let str1="Hello"
+console.log(str1.slice(1,4));
+

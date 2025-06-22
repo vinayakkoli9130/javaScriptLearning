@@ -35,3 +35,58 @@ console.log(strings.split(" "));
 //replace charactor or word from given string
 console.log(strings.replace("Year","Life"));
 console.log(strings);//string is immutable
+
+
+console.log("--------------------------------------------------------------------")
+// let array=[11635,12345,11133,3353,1426,7522];
+// console.log(array.sort((a,b)=>{
+// return a>b?1:-1;
+// }));
+
+// console.log(array.reduce((a,b)=>{
+//     return a+b
+// }))
+// let filtEl=array.filter((el)=>{
+//     return el%2==0
+// })
+// console.log(filtEl);
+// let mapArray=array.map((el)=>{
+//     return el+1
+// })
+// console.log(mapArray);
+
+// function result(){
+//    return "Function Expression"
+// }
+// let message=result()
+// console.log(message);
+// let array=[11635,12345,11133,3353,1426,7522];
+// let spreadArray={...array}
+// console.log(spreadArray);
+
+let person={
+    id:1,
+    name:"Rohit Sharma",
+    age:34,
+    city:"Numbai",
+    runs:20000,
+    isMarried:true,
+    wifeName:"Ritika",
+    
+}
+let {id,name,age,city,runs,isMarried=false,wifeName,childrens=2} = person;
+console.log(id,name,age,city,runs,isMarried,wifeName,childrens);
+for(const key in person){
+    const element=person[key]
+    console.log(key,element)
+}
+
+let array=["TCS","MICROSOFT","INFOSYS","COGNIZENT"]
+
+let [comp1,comp2,comp3,comp4]=array
+console.log(comp1="HCL",comp2,comp3,comp4,comp5="HEXAWARE");
+
+for(const el of array){
+    console.log(el);
+    
+}

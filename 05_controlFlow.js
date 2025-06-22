@@ -74,3 +74,24 @@ for(let index=0;index<=sent.length;index++){
  }
  console.log(lowerCases);
 }
+console.log("---------------------------------------------------------------------------------------");
+let isVowels=""
+let totalVowels=0
+let str1="Hello I Am Learing JS"
+for(let i=0;i<str1.length;i++){
+  const element=str1.charAt(i).toLowerCase()
+
+ if(element=="a"||element=="e"||element=="i"||element=="o"||element=="u"){
+// console.log(isVowels.concat(element));
+isVowels=isVowels.concat(" ",element)
+totalVowels++
+ }
+  
+}
+console.log("Vowels-:",isVowels);
+console.log("Total Numbers Vowels In Given String-:",totalVowels);
+
+for(let i=str1.length-1;i>=0;i--){
+  console.log(str1[i]);
+  
+}

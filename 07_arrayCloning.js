@@ -9,7 +9,7 @@ console.log(arrayOfNum);
 // Deep Cloning
 console.log("Array Deep Cloning");
 let arrayEven = [0, 2, 4, 6, 8 ];
-let arrayClone =  [... arrayEven]; // Deep Clone//rest parameter
+let arrayClone =  [... arrayEven]; // Deep Clone//spread operator
 arrayEven[2] = 100;
 arrayClone[2] = 200;
 console.log(arrayEven);
@@ -30,7 +30,7 @@ console.log(arrayNum);
 console.log(arrayNumb);
 console.log(concatArray);
 console.log("Array merge or concat using spread operator ");
-let mergeArray = [...arrayNum, ... arrayNumb];
+let mergeArray = [...arrayNum, ... arrayNumb];//array merge using spread operetor
 console.log(mergeArray);
 
 console.log("===== Object merge using spread operator ======");

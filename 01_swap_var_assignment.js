@@ -16,14 +16,14 @@ a=a-b
 
 console.log("After Swapping Variable-:",a,b);
 console.log("-------------2)Swap Two Variable Number Without Using Third Variable-------------");
-let r=1
-let s=2
+let firstNumber = 1;
+let secondNumber = 2;
 
-console.log("Before Swap-:",r,s);
-r=r+s
-s=r-s
-r=r-s
-console.log("After Swap-:",r,s);
+console.log("Before Swap-:", firstNumber, secondNumber);
+firstNumber = firstNumber + secondNumber;
+secondNumber = firstNumber - secondNumber;
+firstNumber = firstNumber - secondNumber;
+console.log("After Swap-:", firstNumber, secondNumber);
 
 console.log("--------------------------------------------------------------------------------------------------------");
 var sweety="Sweety";
@@ -70,7 +70,7 @@ console.log('After Swap-:',val1,val2,val3,val4);
 
 
 var va11="Vinayak"
-var va12="Vaishnavi"
+var va12="Vaibhav"
 var va13="Jyoti"
 console.log("Before Swap-:",va11,va12,va13);
 let temperory=va11

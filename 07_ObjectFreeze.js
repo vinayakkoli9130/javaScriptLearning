@@ -32,7 +32,7 @@ console.log(`====================================freeze()=======================
  console.log(arrayNumbers);
 //  arrayNumbers = []; /// Not allowed
 // Freeze array
- Object.freeze(arrayNumbers);//When we use freeze Method Then You Can Not change,update,delete element in array.
+ Object.freeze(arrayNumbers);//When we use freeze Method Then You Can Not change,,delete or add element in array.
  console.log(`=================assign(objectName1,objectName2)Method========================================`);
 const anilInfo={
     name:"Anil",

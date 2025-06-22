@@ -43,7 +43,7 @@ console.log(`===================================================================
  console.log("City--:",employee_info.address.city);
  console.log("State--:",employee_info.address.state);
  console.log("Country--:",employee_info.address.country);
- console.log(`John Doe Moblie Numbers--:${employee_info.mobiles}`);
+ console.log(`John Doe Moblie Numbers--:${employee_info.mobiles[0]}`);
 
  //By Using JSON.parse and JSon.stringify we can perform deep cloning and also access nested object
  let month = JSON.parse(JSON.stringify(employee_info));//Deep cloning

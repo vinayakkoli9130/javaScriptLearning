@@ -24,8 +24,8 @@ console.log(myFullName);//Mohit Sharma
 console.log("==== Learning typeof ====");
 var age = 31;
 var ageType = typeof age;
-console.log(ageType);//boolean
-console.log(typeof age);//boolean
+console.log(ageType);//number
+console.log(typeof age);//number
 console.log("====================Primitive Data type=====================");
 var pinCode = 431202;
 console.log(pinCode, typeof pinCode);//number

@@ -29,7 +29,7 @@ var resultPassOrFail= sscMarks>=35 ? "Pass"  : "Fail";
     // var resultPassOrFail= (sscMarks>=35 && sscMarks<100) ? "Pass"  : "Fail";
     var resultPassOrFail= (sscMarks < 0 || sscMarks > 100 ) 
         ? "In valid Data" 
-        : (sscMarks>35 ? "Pass" : "Fail"); 
+        : (sscMarks>=35 ? "Pass" : "Fail"); 
     return resultPassOrFail;
  }
 

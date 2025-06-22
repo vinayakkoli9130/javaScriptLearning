@@ -7,6 +7,9 @@ const carEngine={
     enginePower:"1499CC",
     maxPower:"113 BHP"
 }
+// let obj=Object.assign(car)
+console.log("object-:",obj);
+
 console.log(`----------Given Objects------`);
 console.log(`Car--->`,car);
 console.log(`Car Engine--->`,carEngine);

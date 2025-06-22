@@ -50,3 +50,33 @@ function squre(val) {
 console.log(squre(5));
 console.log(squre(2433));
 console.log(squre(43));
+console.log("------------------------------------------------------------------------");
+ function doSomething(){
+    console.log("Funtion Expression");
+    
+ }
+ let display=doSomething
+ display()
+
+ function sub(a,b){
+    
+    // console.log(result);
+    return a-b
+ }
+
+let dis=sub(10,5)
+console.log(dis);
+
+setTimeout(()=>{
+    console.log("Hello World");
+    
+},2000)
+
+setInterval(()=>{
+   console.log("Hello World I Am Learning JS");
+    
+},3000)
+
+ 
+
+ 

@@ -36,6 +36,7 @@ console.log(val);
   
 }
 showDetails(sbiBank)
+
 showDetails(axisBank )
-showDetails( hdfcBank)
+showDetails(hdfcBank)
 showDetails( yesBank)

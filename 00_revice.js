@@ -1081,15 +1081,16 @@ for(let i=1;i<=6;i++){
 // const employee={
 //   id:1,name:"Vinayak",collegeName:"Sangola College Sangola",city:"Sangola"
 // }
-// let {id,name,collegeName,city,salary=70000}=employee
+// let {id,name="Mahi",collegeName,city,salary=70000}=employee
 
 // console.log(id,name,collegeName,city,salary);
-
+// console.log(employee)
 // //array-:
 // let arr=["TCS","WIPRO","INFOSYS","COGNIZENT"]
 
 // let [ cmp1,cmp2,cmp3,cmp4,cmp5="CAPJIMINI" ]=arr
 // console.log(cmp1,cmp2,cmp3,cmp4,cmp5);
+// console.log(arr)
 
 // console.log("------------:Arrow Function:-----------");
 // let add=(a,b)=>{
@@ -1742,11 +1743,120 @@ console.log("-----------------:Promise:-------------------");
 // }
 // console.log(fac(5));
 
-function fact(n){
-if(n===0){
-  return 1
-}else{
-  return n*fact(n-1)
+// function fact(n){
+// if(n===0){
+//   return 1
+// }else{
+//   return n*fact(n-1)
+// }
+// }
+// console.log(fact(5));
+
+
+console.log("================================");
+// let nums=5
+// while(nums<=10){
+// console.log(nums);
+// nums++
+
+// }
+// let num=1
+// while(num<=10){
+// console.log(num);
+// num++
+
+// }
+// let num1=50
+// while(num1>=40){
+//   console.log(num1);
+  
+// num1--
+// }
+// console.log("do.....while");
+
+// do{
+//   console.log(num1);
+//   num1--
+  
+// }while(num1>=40)
+  
+// console.log(`printing 1 to 15 Odd number`);
+// let num2=1
+// while(num2<=15){
+  
+// console.log(num2);
+// num2+=2
+
+// }
+// do{
+//   console.log(num2);
+//   num2+=2
+
+// }while(num2<=15)
+// let idx=1
+// while(idx<=10){
+// if(idx==5){
+//   break
+// }
+
+// console.log(idx);
+// idx++
+// }
+// do{
+//   if(idx==5){
+// break
+//   }
+//   console.log(idx);
+//   idx++
+  
+// }while(idx<=10)
+
+  //continue
+//   for(let idx=1;idx<10;idx++){
+//     if(idx==5){
+// continue
+//     }
+//     console.log(idx);
+    
+//   }
+//   let idx=0
+//   while(idx<=10){
+//     idx++
+    
+// if(idx==5){
+//   continue
+// }
+// console.log(idx);
+//   }
+
+//    let count = 0;
+
+// do{
+//   count++
+//   if(count==5){
+// continue
+//   }
+// console.log(count);
+
+// }while(count<=10)
+
+// function fact(n){
+//   count=1
+// for(let idx=1;idx<=n;idx++){
+// count*=idx
+// }
+// console.log(count);
+
+// }
+// fact(5)
+// fact(7)
+
+function factorial(n){
+  let count=1
+for(let idx=1;idx<=n;idx++){
+count=count*idx
 }
+console.log(count);
+
 }
-console.log(fact(5));
+factorial(5)

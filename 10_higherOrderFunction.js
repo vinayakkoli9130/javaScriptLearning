@@ -17,3 +17,33 @@ function show(myNumber){ // myNumber is an argument
 //     console.log(name,age, details);
 // }
 // show("Sachin", 45, "Mumbai", 101)
+
+
+function greet(user, greetingFunction) {
+    return greetingFunction(user);
+}
+
+function sayHello(name) {
+    return `Hello, ${name}!`;
+}
+
+console.log(greet('Alice', sayHello)); // Logs: "Hello, Alice!"
+
+function greet(user,greetingFunction){
+return greetingFunction(user)
+}
+
+function sayHello(name){
+return `Hello, ${name}!`
+}
+console.log(greet('maggi',sayHello));
+
+function makeMultiplare(multiplare){
+    return function (number){
+return number * multiplare
+    }
+}
+const double=makeMultiplare(2)
+const triple=makeMultiplare(3)
+console.log(double(5));
+console.log(triple(5));
